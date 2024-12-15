@@ -92,7 +92,7 @@ config = {k: globals()[k] for k in config_keys}  # will be useful for logging
 # logging stuff
 # Configure the logger
 logging.basicConfig(
-    format="\033[1;36m[%(asctime)s]\033[m %(message)s",
+    format="[%(asctime)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     level=logging.INFO,
 )
@@ -310,6 +310,9 @@ t0 = time.time()
 local_iter_num = 0  # number of iterations in the lifetime of this process
 raw_model = model.module if ddp else model  # unwrap DDP container if needed
 running_mfu = -1.0
+
+# timing benchmark
+total_start_time = time.time()
 while True:
     # determine and set the learning rate for this iteration
     lr = get_lr(iter_num) if decay_lr else learning_rate
@@ -399,6 +402,9 @@ while True:
     # termination conditions
     if iter_num > max_iters:
         break
+
+total_time = time.time() - total_start_time
+logging.info(f"total training time: {total_time:.4f} seconds")
 
 if ddp:
     destroy_process_group()
