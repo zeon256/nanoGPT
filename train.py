@@ -126,7 +126,7 @@ if master_process:
     os.makedirs(out_dir, exist_ok=True)
 
 # fix seed for reproducibility
-torch.manual_seed(1337 + seed_offset)
+torch.manual_seed(seed + seed_offset)
 np.random.seed(seed + seed_offset)
 torch.backends.cuda.matmul.allow_tf32 = True  # allow tf32 on matmul
 torch.backends.cudnn.allow_tf32 = True  # allow tf32 on cudnn
