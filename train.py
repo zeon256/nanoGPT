@@ -312,13 +312,13 @@ if wandb_log and master_process:
 
 # training loop
 X, Y = get_batch("train")  # fetch the very first batch
-t0 = time.time()
+t0 = time.perf_counter()
 local_iter_num = 0  # number of iterations in the lifetime of this process
 raw_model = model.module if ddp else model  # unwrap DDP container if needed
 running_mfu = -1.0
 
 # timing benchmark
-total_start_time = time.time()
+total_start_time = time.perf_counter()
 while True:
     # determine and set the learning rate for this iteration
     lr = get_lr(iter_num) if decay_lr else learning_rate
@@ -388,7 +388,7 @@ while True:
     optimizer.zero_grad(set_to_none=True)
 
     # timing and logging
-    t1 = time.time()
+    t1 = time.perf_counter()
     dt = t1 - t0
     t0 = t1
     if iter_num % log_interval == 0 and master_process:
@@ -409,7 +409,7 @@ while True:
     if iter_num > max_iters:
         break
 
-total_time = time.time() - total_start_time
+total_time = time.perf_counter() - total_start_time
 logging.info(f"total training time: {total_time:.4f} seconds")
 
 if ddp:
