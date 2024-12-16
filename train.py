@@ -21,6 +21,7 @@ import logging
 import time
 import math
 import pickle
+import json
 from contextlib import nullcontext
 
 import numpy as np
@@ -71,6 +72,8 @@ min_lr = 6e-5  # minimum learning rate, should be ~= learning_rate/10 per Chinch
 backend = "nccl"  # 'nccl', 'gloo', etc.
 # seed
 seed = 1337
+# results output
+results_path = "output.json"
 # system
 device = (
     "cuda"  # examples: 'cpu', 'cuda', 'cuda:0', 'cuda:1' etc., or try 'mps' on macbooks
@@ -319,6 +322,8 @@ running_mfu = -1.0
 
 # timing benchmark
 total_start_time = time.perf_counter()
+
+training_results = []
 while True:
     # determine and set the learning rate for this iteration
     lr = get_lr(iter_num) if decay_lr else learning_rate
@@ -402,6 +407,14 @@ while True:
         logging.info(
             f"iter {iter_num}: loss {lossf:.4f}, time {dt*1000:.2f}ms, mfu {running_mfu*100:.2f}%"
         )
+        training_results.append(
+            {
+                "iter_num": iter_num,
+                "loss": lossf,
+                "time_ms": dt * 1000,
+                "mfu": running_mfu * 100,
+            }
+        )
     iter_num += 1
     local_iter_num += 1
 
@@ -414,3 +427,12 @@ logging.info(f"total training time: {total_time:.4f} seconds")
 
 if ddp:
     destroy_process_group()
+
+with open(results_path, "w") as json_file:
+    json.dump(
+        {"total_time_s": total_time, "training_data": training_results},
+        json_file,
+        separators=(",", ":"),
+    )
+
+logging.info(f"results have been written to {results_path}")
