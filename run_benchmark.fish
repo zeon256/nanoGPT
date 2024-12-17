@@ -237,6 +237,36 @@ function run_benchmark
     log_message "Benchmark $benchmark completed"
 end
 
+function telegram_send --description 'Send a message to a Telegram group'
+    if test (count $argv) -lt 3
+        echo "Usage: telegram_send API_KEY CHAT_ID MESSAGE"
+        return 1
+    end
+
+    set -l api_key $argv[1]
+    set -l chat_id $argv[2]
+    set -l message $argv[3]
+
+    log_message "Sending to $chat_id"
+
+    set -l url "https://api.telegram.org/bot$api_key/sendMessage"
+
+    # URL encode the message
+    set -l encoded_message (echo -n "$message" | jq -sRr @uri)
+
+    set -l response (curl -s -X POST "$url" \
+        -d "chat_id=$chat_id" \
+        -d "text=$encoded_message")
+
+    echo $response
+
+    if echo $response | jq -e '.ok == true' >/dev/null
+        echo "Message sent successfully"
+    else
+        echo "Failed to send message: "(echo $response | jq -r '.description')
+    end
+end
+
 function main
     # Store original environment variables that might be needed
     set -l original_path $PATH
@@ -301,6 +331,10 @@ function main
     end
 
     log_message "All benchmarks completed"
+
+    # # run python script to calculate stats
+    # set stats_output $(uv run calculate_stats.py 6.11.5-arch1-1-old)
+    # telegram_send $TELEGRAM_API_KEY $TELEGRAM_CHAT_ID $stats_output
 
     # poweroff pc lol
     poweroff
