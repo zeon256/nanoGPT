@@ -3,14 +3,46 @@ import json
 import polars as pl
 import matplotlib.pyplot as plt
 import logging
+import sys
 from scipy.stats import ttest_ind
 import argparse
+import numpy as np
+import matplotlib
+import seaborn as sns
+from scipy import stats
+
+matplotlib.rcParams["figure.dpi"] = 300
+matplotlib.rcParams["font.family"] = "Iosevka NFM"
+matplotlib.rcParams["font.size"] = 14
+
+handler = logging.StreamHandler(sys.stdout)
+logging.getLogger().addHandler(handler)
+logging.getLogger().setLevel(logging.INFO)
 
 logging.basicConfig(
     format="[%(asctime)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     level=logging.INFO,
 )
+
+
+def custom_sort_key(folder_name):
+    order = [
+        "baseline",
+        "splitlock",
+        "thp",
+        "mimalloc",
+        "mimalloc-thp",
+        "jemalloc",
+        "jemalloc-thp",
+        "tcmalloc",
+        "tcmalloc-thp",
+    ]
+    folder_name = os.path.basename(folder_name).lower()
+    for i, name in enumerate(order):
+        if name in folder_name:
+            return i
+    return len(order)  # Put any unmatched folders at the end
 
 
 def read_json_data(folder_path):
@@ -36,7 +68,7 @@ def print_baseline_stats(baseline_execution_time):
     logging.info(f"Standard Deviation: {baseline_std:.15f}")
     logging.info(f"Minimum Execution Time: {baseline_min:.15f}")
     logging.info(f"Maximum Execution Time: {baseline_max:.15f}")
-    print("=" * 50)
+    print("=" * 100)
 
 
 def compare_execution_times(
@@ -61,11 +93,19 @@ def compare_execution_times(
     # Calculate means
     baseline_mean = baseline_sample.mean()
     optimised_mean = optimised_sample.mean()
+    optimised_min = min(optimised_sample)
+    optimised_max = max(optimised_sample)
+    percentage_diff = calculate_percentage_difference(baseline_mean, optimised_mean)
 
     logging.info(f"Baseline Mean Execution Time (Sample): {baseline_mean:.15f}")
     logging.info(f"Optimised Mean Execution Time (Sample): {optimised_mean:.15f}")
     logging.info(f"T-statistic: {t_stat:.15f}")
     logging.info(f"P-value: {p_value:.15f}")
+    logging.info(f"Minimum Execution Time: {optimised_min:.15f}")
+    logging.info(f"Maximum Execution Time: {optimised_max:.15f}")
+    logging.info(
+        f"Percentage difference (negative means faster): {percentage_diff:.15f}%"
+    )
 
     # Check if the p-value is below 0.05 for significance
     if p_value < 0.05:
@@ -91,7 +131,7 @@ def plot_boxplots(baseline_execution_time, optimised_files_data, output_folder):
 
     # Prepare data for box plots
     data = [baseline_execution_time]
-    tick_labels = ["Baseline"]
+    tick_labels = ["baseline"]
 
     # Add optimised data
     for execution_time, folder_path in optimised_files_data:
@@ -99,10 +139,10 @@ def plot_boxplots(baseline_execution_time, optimised_files_data, output_folder):
         tick_labels.append(os.path.basename(folder_path))
 
     # Create box plot
-    plt.boxplot(data, labels=tick_labels)
+    plt.boxplot(data, tick_labels=tick_labels)
 
     # Customize the plot
-    plt.title("Execution Times Distribution Comparison")
+    plt.title("Execution Times Distribution Comparison", weight="bold")
     plt.ylabel("Execution Time")
     plt.xticks(rotation=45)
     plt.grid(True, axis="y")
@@ -111,7 +151,7 @@ def plot_boxplots(baseline_execution_time, optimised_files_data, output_folder):
     plt.tight_layout()
 
     # Save the plot
-    output_path = os.path.join(output_folder, "execution_times_boxplot.png")
+    output_path = os.path.join(output_folder, "execution_times_boxplot.svg")
     plt.savefig(output_path)
     plt.close()
     logging.info(f"Box plot saved to {output_path}")
@@ -121,33 +161,51 @@ def plot_combined_execution_times(
     baseline_sample, optimised_samples, optimised_folders, output_folder
 ):
     """Plots combined execution times from baseline and optimised samples."""
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(14, 8))
     run_numbers = range(1, len(baseline_sample) + 1)
 
     # Plot baseline sample
-    plt.scatter(run_numbers, baseline_sample, color="blue", label="Baseline Sample")
+    plt.scatter(run_numbers, baseline_sample, color="blue", alpha=0.7, label="baseline")
+
+    # Add mean line for baseline
+    baseline_mean = baseline_sample.mean()
+    plt.axhline(baseline_mean, color="blue", linestyle="--", label="baseline Mean")
 
     # Plot each set of optimised samples
-    for optimised_sample, optimised_folder in zip(optimised_samples, optimised_folders):
+    colors = plt.cm.viridis(np.linspace(0, 1, len(optimised_samples)))
+    for idx, (optimised_sample, optimised_folder) in enumerate(
+        zip(optimised_samples, optimised_folders)
+    ):
         plt.scatter(
             run_numbers,
             optimised_sample,
-            label=f"{os.path.basename(optimised_folder)} Sample",
+            color=colors[idx],
+            alpha=0.7,
+            label=f"{os.path.basename(optimised_folder)}",
+        )
+        # Add mean line for each optimised sample
+        optimised_mean = optimised_sample.mean()
+        plt.axhline(
+            optimised_mean,
+            color=colors[idx],
+            linestyle="--",
+            label=f"{os.path.basename(optimised_folder)} Mean",
         )
 
     # Add titles and labels
-    plt.title("Execution Times Comparison")
+    plt.title("Execution Times Comparison with Mean", weight="bold")
     plt.xlabel("Run Number")
-    plt.ylabel("Execution Time")
+    plt.ylabel("Execution Time (Lower = Better)")
     plt.grid(True)
-    plt.legend()
+    plt.legend(loc="upper right", bbox_to_anchor=(1.15, 1))
 
     # Create output folder if it doesn't exist
     os.makedirs(output_folder, exist_ok=True)
-    output_path = os.path.join(output_folder, "combined_execution_time_plot.png")
+    output_path = os.path.join(output_folder, "scatter_plot.svg")
+    plt.tight_layout()
     plt.savefig(output_path)
     plt.close()
-    logging.info(f"Combined plot saved to {output_path}")
+    logging.info(f"Combined plot with mean lines saved to {output_path}")
 
 
 def find_benchmark_folders(root_folder):
@@ -168,11 +226,109 @@ def calculate_percentage_difference(baseline_mean, best_mean):
     return percentage_diff
 
 
+def plot_percentage_improvement(
+    baseline_mean, optimized_means, folders, output_folder, baseline_folder
+):
+    improvements = [
+        (om - baseline_mean) / baseline_mean * 100 for om in optimized_means
+    ]
+    plt.figure(figsize=(12, 6))
+    plt.bar(range(len(improvements)), improvements)
+    plt.title("Percentage Improvement Over Baseline", weight="bold")
+    plt.ylabel("Percentage Improvement (Lower = Better)")
+    plt.xlabel("Optimisation")
+    plt.xticks(
+        range(len(improvements)),
+        [os.path.basename(f) for f in folders if f != baseline_folder],
+        rotation=45,
+        ha="right",
+    )
+    plt.axhline(y=0, color="r", linestyle="-")
+    plt.tight_layout()
+    output_path = os.path.join(output_folder, "percentage_improvement.svg")
+    plt.savefig(output_path)
+    plt.close()
+    logging.info(f"Percentage improvement chart saved to {output_path}")
+
+
+def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
+    """
+    Creates a heatmap of pairwise comparisons between all experiments,
+    showing both percentage difference and p-value.
+    """
+    # Sort folders to ensure baseline is first
+    benchmark_folders = sorted(benchmark_folders, key=custom_sort_key)
+
+    # Calculate mean execution times and store all execution times for each experiment
+    mean_times = []
+    all_times = []
+    labels = []
+    for folder in benchmark_folders:
+        execution_times = read_json_data(folder)
+        mean_times.append(np.mean(execution_times))
+        all_times.append(execution_times)
+        labels.append(os.path.basename(folder))
+
+    # Calculate percentage differences and p-values
+    n = len(mean_times)
+    diff_matrix = np.zeros((n, n), dtype=object)
+    color_matrix = np.zeros((n, n))
+    for i in range(n):
+        for j in range(n):
+            if i != j:
+                perc_diff = (mean_times[j] - mean_times[i]) / mean_times[i] * 100
+                _, p_value = stats.ttest_ind(all_times[i], all_times[j])
+                diff_matrix[i, j] = f"{perc_diff:.2f}%\np={p_value:.3f}"
+                color_matrix[i, j] = perc_diff
+            else:
+                diff_matrix[i, j] = "0%\np=1.000"
+                color_matrix[i, j] = 0
+
+    # Create heatmap
+    plt.figure(figsize=(14, 12))
+
+    # Create a mask for the diagonal
+    mask = np.eye(n, dtype=bool)
+
+    # Create the heatmap
+    ax = sns.heatmap(
+        color_matrix,
+        annot=diff_matrix,
+        fmt="",
+        cmap="RdYlGn_r",
+        xticklabels=labels,
+        yticklabels=labels,
+        mask=mask,
+        center=0,
+        cbar_kws={"label": "Percentage Difference"},
+    )
+
+    # Adjust text color for better visibility
+    for text in ax.texts:
+        text.set_color("black")
+
+    plt.title("Pairwise Comparison: % Difference and p-value", weight="bold")
+    plt.xlabel("Comparison Experiment")
+    plt.ylabel("Base Experiment")
+
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45, ha="right")
+    plt.yticks(rotation=0)
+
+    plt.tight_layout()
+
+    # Save the heatmap
+    output_path = os.path.join(output_folder, "pairwise_comparison_heatmap.svg")
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()
+    logging.info(f"Pairwise comparison heatmap saved to {output_path}")
+
+
 def main(root_folder, sample_size, random_state):
     output_folder = os.path.join(root_folder, "stats")
 
     # Find all benchmark folders
-    benchmark_folders = find_benchmark_folders(root_folder)
+    benchmark_folders = sorted(find_benchmark_folders(root_folder), key=custom_sort_key)
 
     # Identify baseline folder (assuming it's named 'baseline')
     baseline_folder = next(
@@ -242,6 +398,24 @@ def main(root_folder, sample_size, random_state):
 
     # Create box plots
     plot_boxplots(baseline_execution_time, optimised_files_data, output_folder)
+
+    # Create pairwise comparison heatmap
+    create_pairwise_comparison_heatmap(benchmark_folders, output_folder)
+
+    baseline_mean = sum(baseline_execution_time) / len(baseline_execution_time)
+
+    optimized_folders = [f for f in benchmark_folders if f != baseline_folder]
+    optimized_means = [
+        sum(read_json_data(f)) / len(read_json_data(f)) for f in optimized_folders
+    ]
+
+    plot_percentage_improvement(
+        baseline_mean,
+        optimized_means,
+        optimized_folders,
+        output_folder,
+        baseline_folder,
+    )
 
     # Display the best optimization
     if best_optimised_folder:

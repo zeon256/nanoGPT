@@ -8,7 +8,7 @@ function print_help
     echo "  --number-run N      Number of training runs to perform (N > 0)"
     echo "  --training-script   Path to the training script (default: ../train.py)"
     echo "  --benchmarks        Comma-separated list of benchmarks to run"
-    echo "                      Possible values: baseline,mimalloc,mimalloc-thp,jemalloc,jemalloc-thp"
+    echo "                      Possible values: baseline,mimalloc,mimalloc-thp,jemalloc,jemalloc-thp,tcmalloc,tcmalloc-thp"
     echo "  --num-epoch         Number of epochs for training (N > 0)"
     echo "  --sleep-time        Sleep time in seconds between runs (default: 300)"
     echo "  --help              Display this help message"
@@ -40,7 +40,7 @@ end
 
 function validate_benchmarks
     set -l benchmarks (string split ',' $argv[1])
-    set -l valid_benchmarks baseline mimalloc mimalloc-thp jemalloc jemalloc-thp thp
+    set -l valid_benchmarks baseline mimalloc mimalloc-thp jemalloc jemalloc-thp thp perfg tcmalloc tcmalloc-thp
 
     for benchmark in $benchmarks
         if not contains $benchmark $valid_benchmarks
@@ -118,6 +118,21 @@ function setup_jemalloc_thp
     set -gx MALLOC_CONF "thp:always,metadata_thp:always,dirty_decay_ms:-1"
 end
 
+function setup_perfg
+    # do nothing
+end
+
+function setup_tcmalloc
+    log_message "Setting up tcmalloc."
+    set -gx LD_PRELOAD /usr/lib/libtcmalloc.so
+end
+
+function cleanup_tcmalloc_thp
+    # Reset THP to its default state (assuming 'never' is default)
+    echo never >/sys/kernel/mm/transparent_hugepage/enabled
+    verify_thp never
+end
+
 function cleanup_mimalloc_thp
     # Unset the mimalloc environment variable
     if set -q MIMALLOC_ALLOW_LARGE_OS_PAGES
@@ -158,6 +173,8 @@ function cleanup_benchmark
         cleanup_mimalloc_thp
     else if string match -q '*jemalloc-thp' $benchmark
         cleanup_jemalloc_thp
+    else if string match -q '*tcmalloc-thp' $benchmark
+        cleanup_tcmalloc_thp
     else if string match -q '*-thp' $benchmark
         # General THP reset if no specific allocator is used
         echo never >/sys/kernel/mm/transparent_hugepage/enabled
@@ -177,10 +194,22 @@ function run_training_iteration
     set json_output_file "./$run_folder/$benchmark/run_$run_number.json"
 
     log_message "Starting run number $run_number"
-    env uv run $train_script config/train_shakespeare_char.py --max_iters=$num_epoch --results_path=$json_output_file &>$output_file
+
+    if string match -q perfg $benchmark
+        log_message "Setting up for amd_pstate_epp performance and performance scaling"
+        setup_perfg
+        gamemoderun uv run $train_script config/train_shakespeare_char.py --max_iters=$num_epoch --results_path=$json_output_file &>$output_file
+    else
+        uv run $train_script config/train_shakespeare_char.py --max_iters=$num_epoch --results_path=$json_output_file &>$output_file
+    end
+
+    set time_taken $(jq '.total_time_s' $json_output_file)
 
     # print out the time taken
-    log_message "Total Time Taken: $(jq '.total_time_s' $json_output_file)"
+    log_message "$benchmark run number $run_number total time taken: $time_taken"
+
+    echo "$benchmark run number $run_number total time taken: $time_taken"
+
     return 0
 end
 
@@ -217,15 +246,24 @@ function run_benchmark
             setup_jemalloc
         case jemalloc-thp
             setup_jemalloc_thp
+        case perfg
+            setup_perfg
+        case tcmalloc
+            disable_thp
+            setup_tcmalloc
+        case tcmalloc-thp
+            setup_tcmalloc_thp
     end
 
     # Run training iterations
     for i in (seq 1 $num_runs)
-        run_training_iteration $i $train_script $num_epoch $benchmark $run_folder
+        # returns time taken
+        set runtime $(run_training_iteration $i $train_script $num_epoch $benchmark $run_folder)
 
         # Rest between runs (except for the last run)
         if test $i -lt $num_runs
             log_message "Starting $sleep_time second rest period..."
+            telegram_send $TELEGRAM_API_KEY $TELEGRAM_CHAT_ID "$runtime[-1]"
             sleep $sleep_time
             log_message "Rest period completed"
         end
@@ -233,6 +271,8 @@ function run_benchmark
 
     # Cleanup benchmark environment
     cleanup_benchmark $benchmark
+
+    telegram_send $TELEGRAM_API_KEY $TELEGRAM_CHAT_ID "$benchmark completed"
 
     log_message "Benchmark $benchmark completed"
 end
@@ -251,19 +291,16 @@ function telegram_send --description 'Send a message to a Telegram group'
 
     set -l url "https://api.telegram.org/bot$api_key/sendMessage"
 
-    # URL encode the message
-    set -l encoded_message (echo -n "$message" | jq -sRr @uri)
-
     set -l response (curl -s -X POST "$url" \
         -d "chat_id=$chat_id" \
-        -d "text=$encoded_message")
+        -d "text=$message")
 
-    echo $response
+    log_message $response
 
     if echo $response | jq -e '.ok == true' >/dev/null
-        echo "Message sent successfully"
+        log_message "Message sent successfully"
     else
-        echo "Failed to send message: "(echo $response | jq -r '.description')
+        log_message "Failed to send message: "(echo $response | jq -r '.description')
     end
 end
 
@@ -321,7 +358,7 @@ function main
         end
     end
 
-    # create run folder based off uname -r
+    # # create run folder based off uname -r
     set run_folder $(uname -r)
     mkdir $run_folder
 
@@ -332,9 +369,11 @@ function main
 
     log_message "All benchmarks completed"
 
-    # # run python script to calculate stats
-    # set stats_output $(uv run calculate_stats.py 6.11.5-arch1-1-old)
-    # telegram_send $TELEGRAM_API_KEY $TELEGRAM_CHAT_ID $stats_output
+    # run python script to calculate stats
+    set stats_output $(uv run calculate_stats.py "$run_folder" --sample_size 30)
+
+    telegram_send $TELEGRAM_API_KEY $TELEGRAM_CHAT_ID "$stats_output"
+    telegram_send $TELEGRAM_API_KEY $TELEGRAM_CHAT_ID "Powering pc off..."
 
     # poweroff pc lol
     poweroff

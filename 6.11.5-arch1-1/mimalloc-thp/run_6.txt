@@ -1,0 +1,582 @@
+[2025-01-05 21:10:02] tokens per iteration will be: 16,384
+[2025-01-05 21:10:02] found vocab_size = 65 (inside data/shakespeare_char/meta.pkl)
+[2025-01-05 21:10:02] Initializing a new model from scratch
+/home/zeon256/Documents/school/Y4S1/FYP/nanoGPT/train.py:257: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == "float16"))
+[2025-01-05 21:10:03] compiling the model... (takes a ~minute)
+[2025-01-05 21:10:08] step 0: train loss 4.2874, val loss 4.2823
+[2025-01-05 21:10:10] iter 0: loss 4.2654, time 6963.83ms, mfu -100.00%
+[2025-01-05 21:10:10] iter 10: loss 3.1461, time 21.28ms, mfu 17.51%
+[2025-01-05 21:10:10] iter 20: loss 2.7317, time 20.52ms, mfu 17.58%
+[2025-01-05 21:10:11] iter 30: loss 2.6182, time 20.52ms, mfu 17.63%
+[2025-01-05 21:10:11] iter 40: loss 2.5756, time 20.53ms, mfu 17.69%
+[2025-01-05 21:10:11] iter 50: loss 2.5250, time 20.54ms, mfu 17.73%
+[2025-01-05 21:10:11] iter 60: loss 2.5143, time 20.52ms, mfu 17.77%
+[2025-01-05 21:10:12] iter 70: loss 2.4944, time 20.54ms, mfu 17.81%
+[2025-01-05 21:10:12] iter 80: loss 2.4936, time 20.52ms, mfu 17.85%
+[2025-01-05 21:10:12] iter 90: loss 2.4676, time 20.53ms, mfu 17.88%
+[2025-01-05 21:10:12] iter 100: loss 2.4602, time 20.53ms, mfu 17.90%
+[2025-01-05 21:10:12] iter 110: loss 2.4609, time 20.53ms, mfu 17.93%
+[2025-01-05 21:10:13] iter 120: loss 2.4297, time 20.52ms, mfu 17.95%
+[2025-01-05 21:10:13] iter 130: loss 2.4096, time 20.53ms, mfu 17.97%
+[2025-01-05 21:10:13] iter 140: loss 2.4082, time 20.52ms, mfu 17.99%
+[2025-01-05 21:10:13] iter 150: loss 2.4099, time 20.53ms, mfu 18.01%
+[2025-01-05 21:10:13] iter 160: loss 2.3684, time 20.51ms, mfu 18.02%
+[2025-01-05 21:10:14] iter 170: loss 2.3497, time 20.52ms, mfu 18.04%
+[2025-01-05 21:10:14] iter 180: loss 2.3105, time 20.55ms, mfu 18.05%
+[2025-01-05 21:10:14] iter 190: loss 2.2448, time 20.52ms, mfu 18.06%
+[2025-01-05 21:10:14] iter 200: loss 2.2056, time 20.52ms, mfu 18.07%
+[2025-01-05 21:10:14] iter 210: loss 2.1411, time 20.54ms, mfu 18.08%
+[2025-01-05 21:10:15] iter 220: loss 2.1405, time 20.53ms, mfu 18.08%
+[2025-01-05 21:10:15] iter 230: loss 2.0719, time 20.53ms, mfu 18.09%
+[2025-01-05 21:10:15] iter 240: loss 2.0749, time 20.52ms, mfu 18.10%
+[2025-01-05 21:10:18] step 250: train loss 1.9624, val loss 2.0624
+[2025-01-05 21:10:18] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:10:18] iter 250: loss 2.0300, time 3085.46ms, mfu 16.30%
+[2025-01-05 21:10:18] iter 260: loss 1.9709, time 20.53ms, mfu 16.48%
+[2025-01-05 21:10:19] iter 270: loss 1.9778, time 20.53ms, mfu 16.65%
+[2025-01-05 21:10:19] iter 280: loss 1.9699, time 20.52ms, mfu 16.80%
+[2025-01-05 21:10:19] iter 290: loss 1.9108, time 20.54ms, mfu 16.94%
+[2025-01-05 21:10:19] iter 300: loss 1.8978, time 20.54ms, mfu 17.06%
+[2025-01-05 21:10:19] iter 310: loss 1.8701, time 20.53ms, mfu 17.17%
+[2025-01-05 21:10:20] iter 320: loss 1.8476, time 20.54ms, mfu 17.26%
+[2025-01-05 21:10:20] iter 330: loss 1.8190, time 20.55ms, mfu 17.35%
+[2025-01-05 21:10:20] iter 340: loss 1.7842, time 20.54ms, mfu 17.43%
+[2025-01-05 21:10:20] iter 350: loss 1.8186, time 20.54ms, mfu 17.50%
+[2025-01-05 21:10:20] iter 360: loss 1.7677, time 20.54ms, mfu 17.56%
+[2025-01-05 21:10:21] iter 370: loss 1.7390, time 20.54ms, mfu 17.62%
+[2025-01-05 21:10:21] iter 380: loss 1.7217, time 20.54ms, mfu 17.67%
+[2025-01-05 21:10:21] iter 390: loss 1.7281, time 20.54ms, mfu 17.72%
+[2025-01-05 21:10:21] iter 400: loss 1.7650, time 20.55ms, mfu 17.76%
+[2025-01-05 21:10:22] iter 410: loss 1.7018, time 20.53ms, mfu 17.80%
+[2025-01-05 21:10:22] iter 420: loss 1.7195, time 20.54ms, mfu 17.84%
+[2025-01-05 21:10:22] iter 430: loss 1.6863, time 20.55ms, mfu 17.87%
+[2025-01-05 21:10:22] iter 440: loss 1.6450, time 20.54ms, mfu 17.89%
+[2025-01-05 21:10:22] iter 450: loss 1.6535, time 20.53ms, mfu 17.92%
+[2025-01-05 21:10:23] iter 460: loss 1.5922, time 20.54ms, mfu 17.94%
+[2025-01-05 21:10:23] iter 470: loss 1.6462, time 20.53ms, mfu 17.96%
+[2025-01-05 21:10:23] iter 480: loss 1.6177, time 20.54ms, mfu 17.98%
+[2025-01-05 21:10:23] iter 490: loss 1.5911, time 20.54ms, mfu 18.00%
+[2025-01-05 21:10:26] step 500: train loss 1.5183, val loss 1.7157
+[2025-01-05 21:10:26] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:10:26] iter 500: loss 1.5920, time 3083.76ms, mfu 16.21%
+[2025-01-05 21:10:27] iter 510: loss 1.6067, time 20.53ms, mfu 16.40%
+[2025-01-05 21:10:27] iter 520: loss 1.5851, time 20.54ms, mfu 16.58%
+[2025-01-05 21:10:27] iter 530: loss 1.5593, time 20.55ms, mfu 16.73%
+[2025-01-05 21:10:27] iter 540: loss 1.6245, time 20.54ms, mfu 16.87%
+[2025-01-05 21:10:27] iter 550: loss 1.5539, time 20.54ms, mfu 17.00%
+[2025-01-05 21:10:28] iter 560: loss 1.5572, time 20.53ms, mfu 17.11%
+[2025-01-05 21:10:28] iter 570: loss 1.5585, time 20.55ms, mfu 17.22%
+[2025-01-05 21:10:28] iter 580: loss 1.5226, time 20.54ms, mfu 17.31%
+[2025-01-05 21:10:28] iter 590: loss 1.4883, time 20.54ms, mfu 17.39%
+[2025-01-05 21:10:28] iter 600: loss 1.5138, time 20.54ms, mfu 17.47%
+[2025-01-05 21:10:29] iter 610: loss 1.5395, time 20.54ms, mfu 17.53%
+[2025-01-05 21:10:29] iter 620: loss 1.5306, time 20.53ms, mfu 17.60%
+[2025-01-05 21:10:29] iter 630: loss 1.5073, time 20.53ms, mfu 17.65%
+[2025-01-05 21:10:29] iter 640: loss 1.4605, time 20.55ms, mfu 17.70%
+[2025-01-05 21:10:29] iter 650: loss 1.5060, time 20.53ms, mfu 17.74%
+[2025-01-05 21:10:30] iter 660: loss 1.5040, time 20.53ms, mfu 17.79%
+[2025-01-05 21:10:30] iter 670: loss 1.4395, time 20.54ms, mfu 17.82%
+[2025-01-05 21:10:30] iter 680: loss 1.5041, time 20.52ms, mfu 17.85%
+[2025-01-05 21:10:30] iter 690: loss 1.4610, time 20.54ms, mfu 17.88%
+[2025-01-05 21:10:30] iter 700: loss 1.4791, time 20.53ms, mfu 17.91%
+[2025-01-05 21:10:31] iter 710: loss 1.4519, time 20.55ms, mfu 17.93%
+[2025-01-05 21:10:31] iter 720: loss 1.4379, time 20.52ms, mfu 17.95%
+[2025-01-05 21:10:31] iter 730: loss 1.4185, time 20.52ms, mfu 17.97%
+[2025-01-05 21:10:31] iter 740: loss 1.4193, time 20.53ms, mfu 17.99%
+[2025-01-05 21:10:34] step 750: train loss 1.3600, val loss 1.5874
+[2025-01-05 21:10:34] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:10:35] iter 750: loss 1.4226, time 3083.37ms, mfu 16.21%
+[2025-01-05 21:10:35] iter 760: loss 1.4397, time 20.52ms, mfu 16.40%
+[2025-01-05 21:10:35] iter 770: loss 1.4266, time 20.50ms, mfu 16.58%
+[2025-01-05 21:10:35] iter 780: loss 1.4152, time 20.54ms, mfu 16.73%
+[2025-01-05 21:10:35] iter 790: loss 1.4162, time 20.52ms, mfu 16.88%
+[2025-01-05 21:10:36] iter 800: loss 1.4268, time 20.54ms, mfu 17.00%
+[2025-01-05 21:10:36] iter 810: loss 1.4040, time 20.54ms, mfu 17.12%
+[2025-01-05 21:10:36] iter 820: loss 1.4076, time 20.53ms, mfu 17.22%
+[2025-01-05 21:10:36] iter 830: loss 1.3935, time 20.54ms, mfu 17.31%
+[2025-01-05 21:10:36] iter 840: loss 1.3938, time 20.54ms, mfu 17.40%
+[2025-01-05 21:10:37] iter 850: loss 1.3890, time 20.55ms, mfu 17.47%
+[2025-01-05 21:10:37] iter 860: loss 1.3973, time 20.53ms, mfu 17.54%
+[2025-01-05 21:10:37] iter 870: loss 1.3931, time 20.55ms, mfu 17.60%
+[2025-01-05 21:10:37] iter 880: loss 1.3732, time 20.52ms, mfu 17.65%
+[2025-01-05 21:10:37] iter 890: loss 1.3854, time 20.55ms, mfu 17.70%
+[2025-01-05 21:10:38] iter 900: loss 1.3633, time 20.55ms, mfu 17.74%
+[2025-01-05 21:10:38] iter 910: loss 1.3219, time 20.54ms, mfu 17.78%
+[2025-01-05 21:10:38] iter 920: loss 1.3554, time 20.55ms, mfu 17.82%
+[2025-01-05 21:10:38] iter 930: loss 1.3539, time 20.53ms, mfu 17.85%
+[2025-01-05 21:10:38] iter 940: loss 1.3402, time 20.54ms, mfu 17.88%
+[2025-01-05 21:10:39] iter 950: loss 1.3496, time 20.54ms, mfu 17.91%
+[2025-01-05 21:10:39] iter 960: loss 1.3597, time 20.54ms, mfu 17.93%
+[2025-01-05 21:10:39] iter 970: loss 1.3523, time 20.55ms, mfu 17.95%
+[2025-01-05 21:10:39] iter 980: loss 1.3558, time 20.54ms, mfu 17.97%
+[2025-01-05 21:10:39] iter 990: loss 1.3362, time 20.55ms, mfu 17.99%
+[2025-01-05 21:10:43] step 1000: train loss 1.2715, val loss 1.5184
+[2025-01-05 21:10:43] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:10:43] iter 1000: loss 1.3307, time 3098.52ms, mfu 16.20%
+[2025-01-05 21:10:43] iter 1010: loss 1.3397, time 20.53ms, mfu 16.39%
+[2025-01-05 21:10:43] iter 1020: loss 1.3109, time 20.53ms, mfu 16.57%
+[2025-01-05 21:10:43] iter 1030: loss 1.3375, time 20.54ms, mfu 16.73%
+[2025-01-05 21:10:43] iter 1040: loss 1.3495, time 20.55ms, mfu 16.87%
+[2025-01-05 21:10:44] iter 1050: loss 1.2925, time 20.55ms, mfu 16.99%
+[2025-01-05 21:10:44] iter 1060: loss 1.3380, time 20.53ms, mfu 17.11%
+[2025-01-05 21:10:44] iter 1070: loss 1.3219, time 20.55ms, mfu 17.21%
+[2025-01-05 21:10:44] iter 1080: loss 1.3278, time 20.54ms, mfu 17.30%
+[2025-01-05 21:10:45] iter 1090: loss 1.3494, time 20.53ms, mfu 17.39%
+[2025-01-05 21:10:45] iter 1100: loss 1.3233, time 20.55ms, mfu 17.46%
+[2025-01-05 21:10:45] iter 1110: loss 1.2898, time 20.54ms, mfu 17.53%
+[2025-01-05 21:10:45] iter 1120: loss 1.2920, time 20.52ms, mfu 17.59%
+[2025-01-05 21:10:45] iter 1130: loss 1.2888, time 20.54ms, mfu 17.65%
+[2025-01-05 21:10:46] iter 1140: loss 1.2957, time 20.55ms, mfu 17.70%
+[2025-01-05 21:10:46] iter 1150: loss 1.3034, time 20.55ms, mfu 17.74%
+[2025-01-05 21:10:46] iter 1160: loss 1.3223, time 20.54ms, mfu 17.78%
+[2025-01-05 21:10:46] iter 1170: loss 1.2902, time 20.52ms, mfu 17.82%
+[2025-01-05 21:10:46] iter 1180: loss 1.3148, time 20.55ms, mfu 17.85%
+[2025-01-05 21:10:47] iter 1190: loss 1.2631, time 20.52ms, mfu 17.88%
+[2025-01-05 21:10:47] iter 1200: loss 1.2883, time 20.55ms, mfu 17.91%
+[2025-01-05 21:10:47] iter 1210: loss 1.2591, time 20.55ms, mfu 17.93%
+[2025-01-05 21:10:47] iter 1220: loss 1.3089, time 20.53ms, mfu 17.95%
+[2025-01-05 21:10:47] iter 1230: loss 1.3008, time 20.55ms, mfu 17.97%
+[2025-01-05 21:10:48] iter 1240: loss 1.2951, time 20.52ms, mfu 17.99%
+[2025-01-05 21:10:51] step 1250: train loss 1.2039, val loss 1.4904
+[2025-01-05 21:10:51] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:10:51] iter 1250: loss 1.2657, time 3082.34ms, mfu 16.20%
+[2025-01-05 21:10:51] iter 1260: loss 1.2807, time 20.55ms, mfu 16.39%
+[2025-01-05 21:10:51] iter 1270: loss 1.2674, time 20.54ms, mfu 16.57%
+[2025-01-05 21:10:51] iter 1280: loss 1.2558, time 20.53ms, mfu 16.73%
+[2025-01-05 21:10:52] iter 1290: loss 1.2799, time 20.54ms, mfu 16.87%
+[2025-01-05 21:10:52] iter 1300: loss 1.3010, time 20.56ms, mfu 16.99%
+[2025-01-05 21:10:52] iter 1310: loss 1.2317, time 20.53ms, mfu 17.11%
+[2025-01-05 21:10:52] iter 1320: loss 1.3029, time 20.54ms, mfu 17.21%
+[2025-01-05 21:10:52] iter 1330: loss 1.2645, time 20.54ms, mfu 17.31%
+[2025-01-05 21:10:53] iter 1340: loss 1.2969, time 20.53ms, mfu 17.39%
+[2025-01-05 21:10:53] iter 1350: loss 1.2502, time 20.55ms, mfu 17.46%
+[2025-01-05 21:10:53] iter 1360: loss 1.2744, time 20.53ms, mfu 17.53%
+[2025-01-05 21:10:53] iter 1370: loss 1.2540, time 20.53ms, mfu 17.59%
+[2025-01-05 21:10:53] iter 1380: loss 1.2642, time 20.53ms, mfu 17.65%
+[2025-01-05 21:10:54] iter 1390: loss 1.2393, time 20.53ms, mfu 17.70%
+[2025-01-05 21:10:54] iter 1400: loss 1.2571, time 20.54ms, mfu 17.74%
+[2025-01-05 21:10:54] iter 1410: loss 1.2467, time 20.53ms, mfu 17.78%
+[2025-01-05 21:10:54] iter 1420: loss 1.2684, time 20.54ms, mfu 17.82%
+[2025-01-05 21:10:55] iter 1430: loss 1.2405, time 20.54ms, mfu 17.85%
+[2025-01-05 21:10:55] iter 1440: loss 1.2576, time 20.86ms, mfu 17.85%
+[2025-01-05 21:10:55] iter 1450: loss 1.2240, time 20.54ms, mfu 17.88%
+[2025-01-05 21:10:55] iter 1460: loss 1.2384, time 20.53ms, mfu 17.91%
+[2025-01-05 21:10:55] iter 1470: loss 1.2221, time 20.54ms, mfu 17.93%
+[2025-01-05 21:10:56] iter 1480: loss 1.2156, time 20.53ms, mfu 17.95%
+[2025-01-05 21:10:56] iter 1490: loss 1.2332, time 20.54ms, mfu 17.97%
+[2025-01-05 21:10:59] step 1500: train loss 1.1529, val loss 1.4677
+[2025-01-05 21:10:59] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:10:59] iter 1500: loss 1.1839, time 3086.77ms, mfu 16.19%
+[2025-01-05 21:10:59] iter 1510: loss 1.2273, time 20.53ms, mfu 16.38%
+[2025-01-05 21:10:59] iter 1520: loss 1.2248, time 20.54ms, mfu 16.56%
+[2025-01-05 21:11:00] iter 1530: loss 1.2531, time 20.53ms, mfu 16.72%
+[2025-01-05 21:11:00] iter 1540: loss 1.1904, time 20.55ms, mfu 16.86%
+[2025-01-05 21:11:00] iter 1550: loss 1.2270, time 20.54ms, mfu 16.99%
+[2025-01-05 21:11:00] iter 1560: loss 1.1998, time 20.53ms, mfu 17.10%
+[2025-01-05 21:11:00] iter 1570: loss 1.2369, time 20.54ms, mfu 17.21%
+[2025-01-05 21:11:01] iter 1580: loss 1.2047, time 20.53ms, mfu 17.30%
+[2025-01-05 21:11:01] iter 1590: loss 1.1870, time 20.54ms, mfu 17.39%
+[2025-01-05 21:11:01] iter 1600: loss 1.1978, time 20.54ms, mfu 17.46%
+[2025-01-05 21:11:01] iter 1610: loss 1.2304, time 20.55ms, mfu 17.53%
+[2025-01-05 21:11:01] iter 1620: loss 1.1849, time 20.55ms, mfu 17.59%
+[2025-01-05 21:11:02] iter 1630: loss 1.2060, time 20.53ms, mfu 17.64%
+[2025-01-05 21:11:02] iter 1640: loss 1.1994, time 20.50ms, mfu 17.70%
+[2025-01-05 21:11:02] iter 1650: loss 1.1789, time 20.54ms, mfu 17.74%
+[2025-01-05 21:11:02] iter 1660: loss 1.2137, time 20.52ms, mfu 17.78%
+[2025-01-05 21:11:02] iter 1670: loss 1.1980, time 20.53ms, mfu 17.82%
+[2025-01-05 21:11:03] iter 1680: loss 1.1976, time 20.55ms, mfu 17.85%
+[2025-01-05 21:11:03] iter 1690: loss 1.1990, time 20.54ms, mfu 17.88%
+[2025-01-05 21:11:03] iter 1700: loss 1.1820, time 20.55ms, mfu 17.91%
+[2025-01-05 21:11:03] iter 1710: loss 1.1760, time 20.54ms, mfu 17.93%
+[2025-01-05 21:11:03] iter 1720: loss 1.1804, time 20.56ms, mfu 17.95%
+[2025-01-05 21:11:04] iter 1730: loss 1.1963, time 20.53ms, mfu 17.97%
+[2025-01-05 21:11:04] iter 1740: loss 1.1653, time 20.53ms, mfu 17.99%
+[2025-01-05 21:11:07] step 1750: train loss 1.1019, val loss 1.4672
+[2025-01-05 21:11:07] saving checkpoint to out-shakespeare-char
+[2025-01-05 21:11:07] iter 1750: loss 1.1806, time 3084.84ms, mfu 16.20%
+[2025-01-05 21:11:07] iter 1760: loss 1.1811, time 20.54ms, mfu 16.40%
+[2025-01-05 21:11:08] iter 1770: loss 1.1958, time 20.53ms, mfu 16.57%
+[2025-01-05 21:11:08] iter 1780: loss 1.1935, time 20.53ms, mfu 16.73%
+[2025-01-05 21:11:08] iter 1790: loss 1.1897, time 20.53ms, mfu 16.87%
+[2025-01-05 21:11:08] iter 1800: loss 1.1777, time 20.54ms, mfu 17.00%
+[2025-01-05 21:11:08] iter 1810: loss 1.1564, time 20.55ms, mfu 17.11%
+[2025-01-05 21:11:09] iter 1820: loss 1.1670, time 20.54ms, mfu 17.21%
+[2025-01-05 21:11:09] iter 1830: loss 1.1704, time 20.54ms, mfu 17.31%
+[2025-01-05 21:11:09] iter 1840: loss 1.1569, time 20.54ms, mfu 17.39%
+[2025-01-05 21:11:09] iter 1850: loss 1.1571, time 20.53ms, mfu 17.47%
+[2025-01-05 21:11:09] iter 1860: loss 1.1693, time 20.54ms, mfu 17.53%
+[2025-01-05 21:11:10] iter 1870: loss 1.1397, time 20.54ms, mfu 17.59%
+[2025-01-05 21:11:10] iter 1880: loss 1.1830, time 20.53ms, mfu 17.65%
+[2025-01-05 21:11:10] iter 1890: loss 1.1738, time 20.54ms, mfu 17.70%
+[2025-01-05 21:11:10] iter 1900: loss 1.1328, time 20.55ms, mfu 17.74%
+[2025-01-05 21:11:10] iter 1910: loss 1.1667, time 20.54ms, mfu 17.78%
+[2025-01-05 21:11:11] iter 1920: loss 1.1684, time 20.54ms, mfu 17.82%
+[2025-01-05 21:11:11] iter 1930: loss 1.1515, time 20.54ms, mfu 17.85%
+[2025-01-05 21:11:11] iter 1940: loss 1.1185, time 20.54ms, mfu 17.88%
+[2025-01-05 21:11:11] iter 1950: loss 1.1398, time 20.55ms, mfu 17.90%
+[2025-01-05 21:11:11] iter 1960: loss 1.1459, time 20.53ms, mfu 17.93%
+[2025-01-05 21:11:12] iter 1970: loss 1.1477, time 20.56ms, mfu 17.95%
+[2025-01-05 21:11:12] iter 1980: loss 1.1541, time 20.55ms, mfu 17.97%
+[2025-01-05 21:11:12] iter 1990: loss 1.1577, time 20.54ms, mfu 17.99%
+[2025-01-05 21:11:15] step 2000: train loss 1.0592, val loss 1.4730
+[2025-01-05 21:11:15] iter 2000: loss 1.1351, time 2994.69ms, mfu 16.20%
+[2025-01-05 21:11:15] iter 2010: loss 1.1230, time 20.54ms, mfu 16.39%
+[2025-01-05 21:11:16] iter 2020: loss 1.1200, time 20.53ms, mfu 16.57%
+[2025-01-05 21:11:16] iter 2030: loss 1.1553, time 20.53ms, mfu 16.73%
+[2025-01-05 21:11:16] iter 2040: loss 1.1386, time 20.54ms, mfu 16.87%
+[2025-01-05 21:11:16] iter 2050: loss 1.1186, time 20.54ms, mfu 17.00%
+[2025-01-05 21:11:16] iter 2060: loss 1.1016, time 20.53ms, mfu 17.11%
+[2025-01-05 21:11:17] iter 2070: loss 1.1215, time 20.53ms, mfu 17.21%
+[2025-01-05 21:11:17] iter 2080: loss 1.1185, time 20.53ms, mfu 17.31%
+[2025-01-05 21:11:17] iter 2090: loss 1.1342, time 20.54ms, mfu 17.39%
+[2025-01-05 21:11:17] iter 2100: loss 1.1294, time 20.54ms, mfu 17.47%
+[2025-01-05 21:11:17] iter 2110: loss 1.1258, time 20.54ms, mfu 17.53%
+[2025-01-05 21:11:18] iter 2120: loss 1.1280, time 20.54ms, mfu 17.59%
+[2025-01-05 21:11:18] iter 2130: loss 1.1331, time 20.54ms, mfu 17.65%
+[2025-01-05 21:11:18] iter 2140: loss 1.1346, time 20.54ms, mfu 17.70%
+[2025-01-05 21:11:18] iter 2150: loss 1.1241, time 20.52ms, mfu 17.74%
+[2025-01-05 21:11:18] iter 2160: loss 1.1382, time 20.55ms, mfu 17.78%
+[2025-01-05 21:11:19] iter 2170: loss 1.1230, time 20.55ms, mfu 17.82%
+[2025-01-05 21:11:19] iter 2180: loss 1.1128, time 20.54ms, mfu 17.85%
+[2025-01-05 21:11:19] iter 2190: loss 1.1044, time 20.53ms, mfu 17.88%
+[2025-01-05 21:11:19] iter 2200: loss 1.1222, time 20.53ms, mfu 17.91%
+[2025-01-05 21:11:19] iter 2210: loss 1.1070, time 20.55ms, mfu 17.93%
+[2025-01-05 21:11:20] iter 2220: loss 1.1199, time 20.54ms, mfu 17.95%
+[2025-01-05 21:11:20] iter 2230: loss 1.1220, time 20.53ms, mfu 17.97%
+[2025-01-05 21:11:20] iter 2240: loss 1.1236, time 20.54ms, mfu 17.99%
+[2025-01-05 21:11:23] step 2250: train loss 1.0089, val loss 1.4852
+[2025-01-05 21:11:23] iter 2250: loss 1.1110, time 2997.08ms, mfu 16.20%
+[2025-01-05 21:11:23] iter 2260: loss 1.1042, time 20.55ms, mfu 16.40%
+[2025-01-05 21:11:24] iter 2270: loss 1.1195, time 20.54ms, mfu 16.57%
+[2025-01-05 21:11:24] iter 2280: loss 1.0940, time 20.53ms, mfu 16.73%
+[2025-01-05 21:11:24] iter 2290: loss 1.1526, time 20.54ms, mfu 16.87%
+[2025-01-05 21:11:24] iter 2300: loss 1.1124, time 20.53ms, mfu 17.00%
+[2025-01-05 21:11:24] iter 2310: loss 1.0869, time 20.54ms, mfu 17.11%
+[2025-01-05 21:11:25] iter 2320: loss 1.0933, time 20.54ms, mfu 17.21%
+[2025-01-05 21:11:25] iter 2330: loss 1.0901, time 20.52ms, mfu 17.31%
+[2025-01-05 21:11:25] iter 2340: loss 1.1114, time 20.53ms, mfu 17.39%
+[2025-01-05 21:11:25] iter 2350: loss 1.0933, time 20.54ms, mfu 17.47%
+[2025-01-05 21:11:25] iter 2360: loss 1.1060, time 20.53ms, mfu 17.54%
+[2025-01-05 21:11:26] iter 2370: loss 1.0931, time 20.58ms, mfu 17.59%
+[2025-01-05 21:11:26] iter 2380: loss 1.0841, time 20.54ms, mfu 17.65%
+[2025-01-05 21:11:26] iter 2390: loss 1.0833, time 20.55ms, mfu 17.70%
+[2025-01-05 21:11:26] iter 2400: loss 1.0796, time 20.56ms, mfu 17.74%
+[2025-01-05 21:11:27] iter 2410: loss 1.0696, time 20.54ms, mfu 17.78%
+[2025-01-05 21:11:27] iter 2420: loss 1.0747, time 20.55ms, mfu 17.81%
+[2025-01-05 21:11:27] iter 2430: loss 1.0534, time 20.56ms, mfu 17.85%
+[2025-01-05 21:11:27] iter 2440: loss 1.0550, time 20.53ms, mfu 17.88%
+[2025-01-05 21:11:27] iter 2450: loss 1.0692, time 20.54ms, mfu 17.90%
+[2025-01-05 21:11:28] iter 2460: loss 1.0894, time 20.51ms, mfu 17.93%
+[2025-01-05 21:11:28] iter 2470: loss 1.0845, time 20.53ms, mfu 17.95%
+[2025-01-05 21:11:28] iter 2480: loss 1.0797, time 20.53ms, mfu 17.97%
+[2025-01-05 21:11:28] iter 2490: loss 1.0471, time 20.55ms, mfu 17.99%
+[2025-01-05 21:11:31] step 2500: train loss 0.9563, val loss 1.4924
+[2025-01-05 21:11:31] iter 2500: loss 1.0818, time 2996.75ms, mfu 16.20%
+[2025-01-05 21:11:31] iter 2510: loss 1.0673, time 20.54ms, mfu 16.40%
+[2025-01-05 21:11:32] iter 2520: loss 1.0375, time 20.53ms, mfu 16.57%
+[2025-01-05 21:11:32] iter 2530: loss 1.0551, time 20.55ms, mfu 16.73%
+[2025-01-05 21:11:32] iter 2540: loss 1.0491, time 20.55ms, mfu 16.87%
+[2025-01-05 21:11:32] iter 2550: loss 1.0625, time 20.54ms, mfu 16.99%
+[2025-01-05 21:11:33] iter 2560: loss 1.0567, time 20.54ms, mfu 17.11%
+[2025-01-05 21:11:33] iter 2570: loss 1.0659, time 20.54ms, mfu 17.21%
+[2025-01-05 21:11:33] iter 2580: loss 1.0810, time 20.54ms, mfu 17.31%
+[2025-01-05 21:11:33] iter 2590: loss 1.0645, time 20.54ms, mfu 17.39%
+[2025-01-05 21:11:33] iter 2600: loss 1.0697, time 20.54ms, mfu 17.46%
+[2025-01-05 21:11:34] iter 2610: loss 1.0533, time 20.55ms, mfu 17.53%
+[2025-01-05 21:11:34] iter 2620: loss 1.0387, time 20.54ms, mfu 17.59%
+[2025-01-05 21:11:34] iter 2630: loss 1.0259, time 20.54ms, mfu 17.65%
+[2025-01-05 21:11:34] iter 2640: loss 1.0434, time 20.53ms, mfu 17.70%
+[2025-01-05 21:11:34] iter 2650: loss 1.0618, time 20.53ms, mfu 17.74%
+[2025-01-05 21:11:35] iter 2660: loss 1.0341, time 20.55ms, mfu 17.78%
+[2025-01-05 21:11:35] iter 2670: loss 1.0188, time 20.55ms, mfu 17.82%
+[2025-01-05 21:11:35] iter 2680: loss 1.0529, time 20.53ms, mfu 17.85%
+[2025-01-05 21:11:35] iter 2690: loss 1.0507, time 20.54ms, mfu 17.88%
+[2025-01-05 21:11:35] iter 2700: loss 1.0232, time 20.53ms, mfu 17.91%
+[2025-01-05 21:11:36] iter 2710: loss 1.0385, time 20.46ms, mfu 17.94%
+[2025-01-05 21:11:36] iter 2720: loss 1.0359, time 20.53ms, mfu 17.96%
+[2025-01-05 21:11:36] iter 2730: loss 1.0522, time 20.53ms, mfu 17.98%
+[2025-01-05 21:11:36] iter 2740: loss 1.0163, time 20.55ms, mfu 17.99%
+[2025-01-05 21:11:39] step 2750: train loss 0.9123, val loss 1.5143
+[2025-01-05 21:11:39] iter 2750: loss 1.0299, time 2995.35ms, mfu 16.21%
+[2025-01-05 21:11:40] iter 2760: loss 1.0202, time 20.53ms, mfu 16.40%
+[2025-01-05 21:11:40] iter 2770: loss 1.0283, time 20.56ms, mfu 16.57%
+[2025-01-05 21:11:40] iter 2780: loss 1.0233, time 20.53ms, mfu 16.73%
+[2025-01-05 21:11:40] iter 2790: loss 1.0342, time 20.53ms, mfu 16.87%
+[2025-01-05 21:11:40] iter 2800: loss 1.0044, time 20.53ms, mfu 17.00%
+[2025-01-05 21:11:41] iter 2810: loss 1.0372, time 20.54ms, mfu 17.11%
+[2025-01-05 21:11:41] iter 2820: loss 1.0207, time 20.53ms, mfu 17.22%
+[2025-01-05 21:11:41] iter 2830: loss 1.0289, time 20.54ms, mfu 17.31%
+[2025-01-05 21:11:41] iter 2840: loss 0.9922, time 20.54ms, mfu 17.39%
+[2025-01-05 21:11:41] iter 2850: loss 1.0270, time 20.52ms, mfu 17.47%
+[2025-01-05 21:11:42] iter 2860: loss 1.0222, time 20.54ms, mfu 17.54%
+[2025-01-05 21:11:42] iter 2870: loss 1.0039, time 20.56ms, mfu 17.59%
+[2025-01-05 21:11:42] iter 2880: loss 1.0262, time 20.54ms, mfu 17.65%
+[2025-01-05 21:11:42] iter 2890: loss 1.0026, time 20.54ms, mfu 17.70%
+[2025-01-05 21:11:42] iter 2900: loss 0.9853, time 20.48ms, mfu 17.75%
+[2025-01-05 21:11:43] iter 2910: loss 1.0406, time 20.53ms, mfu 17.79%
+[2025-01-05 21:11:43] iter 2920: loss 1.0090, time 20.55ms, mfu 17.82%
+[2025-01-05 21:11:43] iter 2930: loss 0.9943, time 20.54ms, mfu 17.85%
+[2025-01-05 21:11:43] iter 2940: loss 0.9882, time 20.54ms, mfu 17.88%
+[2025-01-05 21:11:43] iter 2950: loss 1.0274, time 20.53ms, mfu 17.91%
+[2025-01-05 21:11:44] iter 2960: loss 1.0016, time 20.53ms, mfu 17.93%
+[2025-01-05 21:11:44] iter 2970: loss 0.9895, time 20.55ms, mfu 17.95%
+[2025-01-05 21:11:44] iter 2980: loss 0.9948, time 20.53ms, mfu 17.97%
+[2025-01-05 21:11:44] iter 2990: loss 0.9861, time 20.53ms, mfu 17.99%
+[2025-01-05 21:11:47] step 3000: train loss 0.8650, val loss 1.5351
+[2025-01-05 21:11:47] iter 3000: loss 0.9869, time 2995.51ms, mfu 16.20%
+[2025-01-05 21:11:48] iter 3010: loss 0.9912, time 20.55ms, mfu 16.40%
+[2025-01-05 21:11:48] iter 3020: loss 0.9970, time 20.52ms, mfu 16.57%
+[2025-01-05 21:11:48] iter 3030: loss 1.0125, time 20.55ms, mfu 16.73%
+[2025-01-05 21:11:48] iter 3040: loss 1.0125, time 20.54ms, mfu 16.87%
+[2025-01-05 21:11:48] iter 3050: loss 0.9830, time 20.55ms, mfu 17.00%
+[2025-01-05 21:11:49] iter 3060: loss 0.9926, time 20.56ms, mfu 17.11%
+[2025-01-05 21:11:49] iter 3070: loss 1.0137, time 20.53ms, mfu 17.21%
+[2025-01-05 21:11:49] iter 3080: loss 0.9954, time 20.54ms, mfu 17.31%
+[2025-01-05 21:11:49] iter 3090: loss 0.9861, time 20.53ms, mfu 17.39%
+[2025-01-05 21:11:49] iter 3100: loss 0.9913, time 20.54ms, mfu 17.46%
+[2025-01-05 21:11:50] iter 3110: loss 0.9696, time 20.55ms, mfu 17.53%
+[2025-01-05 21:11:50] iter 3120: loss 0.9959, time 20.54ms, mfu 17.59%
+[2025-01-05 21:11:50] iter 3130: loss 0.9817, time 20.56ms, mfu 17.65%
+[2025-01-05 21:11:50] iter 3140: loss 0.9794, time 20.54ms, mfu 17.69%
+[2025-01-05 21:11:50] iter 3150: loss 0.9966, time 20.53ms, mfu 17.74%
+[2025-01-05 21:11:51] iter 3160: loss 1.0068, time 20.55ms, mfu 17.78%
+[2025-01-05 21:11:51] iter 3170: loss 0.9598, time 20.55ms, mfu 17.82%
+[2025-01-05 21:11:51] iter 3180: loss 0.9645, time 20.55ms, mfu 17.85%
+[2025-01-05 21:11:51] iter 3190: loss 0.9914, time 20.55ms, mfu 17.88%
+[2025-01-05 21:11:52] iter 3200: loss 0.9634, time 20.54ms, mfu 17.90%
+[2025-01-05 21:11:52] iter 3210: loss 0.9712, time 20.55ms, mfu 17.93%
+[2025-01-05 21:11:52] iter 3220: loss 0.9544, time 20.57ms, mfu 17.94%
+[2025-01-05 21:11:52] iter 3230: loss 0.9527, time 20.55ms, mfu 17.96%
+[2025-01-05 21:11:52] iter 3240: loss 0.9583, time 20.53ms, mfu 17.98%
+[2025-01-05 21:11:55] step 3250: train loss 0.8223, val loss 1.5535
+[2025-01-05 21:11:55] iter 3250: loss 0.9706, time 2996.53ms, mfu 16.20%
+[2025-01-05 21:11:56] iter 3260: loss 0.9577, time 20.56ms, mfu 16.39%
+[2025-01-05 21:11:56] iter 3270: loss 0.9709, time 20.52ms, mfu 16.57%
+[2025-01-05 21:11:56] iter 3280: loss 0.9516, time 20.55ms, mfu 16.72%
+[2025-01-05 21:11:56] iter 3290: loss 0.9417, time 20.54ms, mfu 16.87%
+[2025-01-05 21:11:56] iter 3300: loss 0.9430, time 20.53ms, mfu 16.99%
+[2025-01-05 21:11:57] iter 3310: loss 0.9500, time 20.53ms, mfu 17.11%
+[2025-01-05 21:11:57] iter 3320: loss 0.9634, time 20.54ms, mfu 17.21%
+[2025-01-05 21:11:57] iter 3330: loss 0.9538, time 20.55ms, mfu 17.30%
+[2025-01-05 21:11:57] iter 3340: loss 0.9468, time 20.54ms, mfu 17.39%
+[2025-01-05 21:11:58] iter 3350: loss 0.9513, time 20.56ms, mfu 17.46%
+[2025-01-05 21:11:58] iter 3360: loss 0.9288, time 20.56ms, mfu 17.53%
+[2025-01-05 21:11:58] iter 3370: loss 0.9541, time 20.55ms, mfu 17.59%
+[2025-01-05 21:11:58] iter 3380: loss 0.9472, time 20.56ms, mfu 17.64%
+[2025-01-05 21:11:58] iter 3390: loss 0.9451, time 20.55ms, mfu 17.69%
+[2025-01-05 21:11:59] iter 3400: loss 0.9558, time 20.55ms, mfu 17.74%
+[2025-01-05 21:11:59] iter 3410: loss 0.9381, time 20.53ms, mfu 17.78%
+[2025-01-05 21:11:59] iter 3420: loss 0.9410, time 20.55ms, mfu 17.81%
+[2025-01-05 21:11:59] iter 3430: loss 0.9419, time 20.55ms, mfu 17.85%
+[2025-01-05 21:11:59] iter 3440: loss 0.9778, time 20.54ms, mfu 17.87%
+[2025-01-05 21:12:00] iter 3450: loss 0.9497, time 20.53ms, mfu 17.90%
+[2025-01-05 21:12:00] iter 3460: loss 0.9441, time 20.54ms, mfu 17.93%
+[2025-01-05 21:12:00] iter 3470: loss 0.9347, time 20.54ms, mfu 17.95%
+[2025-01-05 21:12:00] iter 3480: loss 0.9525, time 20.53ms, mfu 17.97%
+[2025-01-05 21:12:00] iter 3490: loss 0.9146, time 20.55ms, mfu 17.98%
+[2025-01-05 21:12:04] step 3500: train loss 0.7791, val loss 1.5841
+[2025-01-05 21:12:04] iter 3500: loss 0.9080, time 2995.39ms, mfu 16.20%
+[2025-01-05 21:12:04] iter 3510: loss 0.9134, time 20.55ms, mfu 16.39%
+[2025-01-05 21:12:04] iter 3520: loss 0.9264, time 20.55ms, mfu 16.57%
+[2025-01-05 21:12:04] iter 3530: loss 0.9496, time 20.54ms, mfu 16.72%
+[2025-01-05 21:12:04] iter 3540: loss 0.9232, time 20.55ms, mfu 16.86%
+[2025-01-05 21:12:05] iter 3550: loss 0.9225, time 20.54ms, mfu 16.99%
+[2025-01-05 21:12:05] iter 3560: loss 0.9508, time 20.53ms, mfu 17.11%
+[2025-01-05 21:12:05] iter 3570: loss 0.9347, time 20.53ms, mfu 17.21%
+[2025-01-05 21:12:05] iter 3580: loss 0.9286, time 20.55ms, mfu 17.30%
+[2025-01-05 21:12:05] iter 3590: loss 0.9249, time 20.54ms, mfu 17.39%
+[2025-01-05 21:12:06] iter 3600: loss 0.9231, time 20.54ms, mfu 17.46%
+[2025-01-05 21:12:06] iter 3610: loss 0.9045, time 20.53ms, mfu 17.53%
+[2025-01-05 21:12:06] iter 3620: loss 0.9130, time 20.55ms, mfu 17.59%
+[2025-01-05 21:12:06] iter 3630: loss 0.9222, time 20.54ms, mfu 17.65%
+[2025-01-05 21:12:06] iter 3640: loss 0.9098, time 20.53ms, mfu 17.70%
+[2025-01-05 21:12:07] iter 3650: loss 0.9137, time 20.55ms, mfu 17.74%
+[2025-01-05 21:12:07] iter 3660: loss 0.9371, time 20.56ms, mfu 17.78%
+[2025-01-05 21:12:07] iter 3670: loss 0.9343, time 20.56ms, mfu 17.81%
+[2025-01-05 21:12:07] iter 3680: loss 0.9071, time 20.54ms, mfu 17.85%
+[2025-01-05 21:12:07] iter 3690: loss 0.9375, time 20.52ms, mfu 17.88%
+[2025-01-05 21:12:08] iter 3700: loss 0.8727, time 20.53ms, mfu 17.91%
+[2025-01-05 21:12:08] iter 3710: loss 0.8754, time 20.53ms, mfu 17.93%
+[2025-01-05 21:12:08] iter 3720: loss 0.8985, time 20.53ms, mfu 17.95%
+[2025-01-05 21:12:08] iter 3730: loss 0.9018, time 20.53ms, mfu 17.97%
+[2025-01-05 21:12:08] iter 3740: loss 0.9029, time 20.56ms, mfu 17.99%
+[2025-01-05 21:12:12] step 3750: train loss 0.7406, val loss 1.6024
+[2025-01-05 21:12:12] iter 3750: loss 0.9009, time 2997.37ms, mfu 16.20%
+[2025-01-05 21:12:12] iter 3760: loss 0.9320, time 20.53ms, mfu 16.39%
+[2025-01-05 21:12:12] iter 3770: loss 0.9287, time 20.54ms, mfu 16.57%
+[2025-01-05 21:12:12] iter 3780: loss 0.9161, time 20.54ms, mfu 16.73%
+[2025-01-05 21:12:12] iter 3790: loss 0.9001, time 20.54ms, mfu 16.87%
+[2025-01-05 21:12:13] iter 3800: loss 0.9184, time 20.54ms, mfu 16.99%
+[2025-01-05 21:12:13] iter 3810: loss 0.9168, time 20.53ms, mfu 17.11%
+[2025-01-05 21:12:13] iter 3820: loss 0.8856, time 20.53ms, mfu 17.21%
+[2025-01-05 21:12:13] iter 3830: loss 0.8990, time 20.53ms, mfu 17.31%
+[2025-01-05 21:12:13] iter 3840: loss 0.8844, time 20.55ms, mfu 17.39%
+[2025-01-05 21:12:14] iter 3850: loss 0.8899, time 20.54ms, mfu 17.47%
+[2025-01-05 21:12:14] iter 3860: loss 0.8757, time 20.54ms, mfu 17.53%
+[2025-01-05 21:12:14] iter 3870: loss 0.8874, time 20.51ms, mfu 17.60%
+[2025-01-05 21:12:14] iter 3880: loss 0.8884, time 20.53ms, mfu 17.65%
+[2025-01-05 21:12:14] iter 3890: loss 0.8926, time 20.54ms, mfu 17.70%
+[2025-01-05 21:12:15] iter 3900: loss 0.8887, time 20.57ms, mfu 17.74%
+[2025-01-05 21:12:15] iter 3910: loss 0.8878, time 20.54ms, mfu 17.78%
+[2025-01-05 21:12:15] iter 3920: loss 0.8736, time 20.54ms, mfu 17.82%
+[2025-01-05 21:12:15] iter 3930: loss 0.8870, time 20.54ms, mfu 17.85%
+[2025-01-05 21:12:15] iter 3940: loss 0.8756, time 20.55ms, mfu 17.88%
+[2025-01-05 21:12:16] iter 3950: loss 0.8767, time 20.55ms, mfu 17.90%
+[2025-01-05 21:12:16] iter 3960: loss 0.9052, time 20.54ms, mfu 17.93%
+[2025-01-05 21:12:16] iter 3970: loss 0.8973, time 20.54ms, mfu 17.95%
+[2025-01-05 21:12:16] iter 3980: loss 0.8992, time 20.53ms, mfu 17.97%
+[2025-01-05 21:12:17] iter 3990: loss 0.8707, time 20.54ms, mfu 17.99%
+[2025-01-05 21:12:20] step 4000: train loss 0.7079, val loss 1.6307
+[2025-01-05 21:12:20] iter 4000: loss 0.8600, time 2994.72ms, mfu 16.20%
+[2025-01-05 21:12:20] iter 4010: loss 0.8820, time 20.53ms, mfu 16.39%
+[2025-01-05 21:12:20] iter 4020: loss 0.8882, time 20.54ms, mfu 16.57%
+[2025-01-05 21:12:20] iter 4030: loss 0.8822, time 20.53ms, mfu 16.73%
+[2025-01-05 21:12:20] iter 4040: loss 0.8794, time 20.55ms, mfu 16.87%
+[2025-01-05 21:12:21] iter 4050: loss 0.8688, time 20.54ms, mfu 17.00%
+[2025-01-05 21:12:21] iter 4060: loss 0.8562, time 20.52ms, mfu 17.11%
+[2025-01-05 21:12:21] iter 4070: loss 0.8570, time 20.55ms, mfu 17.21%
+[2025-01-05 21:12:21] iter 4080: loss 0.8863, time 20.53ms, mfu 17.31%
+[2025-01-05 21:12:21] iter 4090: loss 0.8488, time 20.52ms, mfu 17.39%
+[2025-01-05 21:12:22] iter 4100: loss 0.9024, time 20.53ms, mfu 17.47%
+[2025-01-05 21:12:22] iter 4110: loss 0.8719, time 20.54ms, mfu 17.53%
+[2025-01-05 21:12:22] iter 4120: loss 0.8772, time 20.55ms, mfu 17.60%
+[2025-01-05 21:12:22] iter 4130: loss 0.8603, time 20.56ms, mfu 17.65%
+[2025-01-05 21:12:23] iter 4140: loss 0.8788, time 20.54ms, mfu 17.70%
+[2025-01-05 21:12:23] iter 4150: loss 0.8629, time 20.52ms, mfu 17.74%
+[2025-01-05 21:12:23] iter 4160: loss 0.8442, time 20.54ms, mfu 17.78%
+[2025-01-05 21:12:23] iter 4170: loss 0.8667, time 20.55ms, mfu 17.82%
+[2025-01-05 21:12:23] iter 4180: loss 0.8722, time 20.54ms, mfu 17.85%
+[2025-01-05 21:12:24] iter 4190: loss 0.8712, time 20.53ms, mfu 17.88%
+[2025-01-05 21:12:24] iter 4200: loss 0.8530, time 20.54ms, mfu 17.91%
+[2025-01-05 21:12:24] iter 4210: loss 0.8674, time 20.54ms, mfu 17.93%
+[2025-01-05 21:12:24] iter 4220: loss 0.8604, time 20.54ms, mfu 17.95%
+[2025-01-05 21:12:24] iter 4230: loss 0.8786, time 20.53ms, mfu 17.97%
+[2025-01-05 21:12:25] iter 4240: loss 0.8661, time 20.54ms, mfu 17.99%
+[2025-01-05 21:12:28] step 4250: train loss 0.6792, val loss 1.6551
+[2025-01-05 21:12:28] iter 4250: loss 0.8680, time 2995.09ms, mfu 16.20%
+[2025-01-05 21:12:28] iter 4260: loss 0.8624, time 20.53ms, mfu 16.40%
+[2025-01-05 21:12:28] iter 4270: loss 0.8678, time 20.53ms, mfu 16.57%
+[2025-01-05 21:12:28] iter 4280: loss 0.8554, time 20.85ms, mfu 16.70%
+[2025-01-05 21:12:29] iter 4290: loss 0.8362, time 20.53ms, mfu 16.85%
+[2025-01-05 21:12:29] iter 4300: loss 0.8304, time 20.53ms, mfu 16.98%
+[2025-01-05 21:12:29] iter 4310: loss 0.8499, time 20.53ms, mfu 17.09%
+[2025-01-05 21:12:29] iter 4320: loss 0.8454, time 20.54ms, mfu 17.20%
+[2025-01-05 21:12:29] iter 4330: loss 0.8583, time 20.53ms, mfu 17.29%
+[2025-01-05 21:12:30] iter 4340: loss 0.8335, time 20.53ms, mfu 17.38%
+[2025-01-05 21:12:30] iter 4350: loss 0.8403, time 20.53ms, mfu 17.46%
+[2025-01-05 21:12:30] iter 4360: loss 0.8625, time 20.54ms, mfu 17.52%
+[2025-01-05 21:12:30] iter 4370: loss 0.8557, time 20.54ms, mfu 17.59%
+[2025-01-05 21:12:30] iter 4380: loss 0.8405, time 20.55ms, mfu 17.64%
+[2025-01-05 21:12:31] iter 4390: loss 0.8657, time 20.55ms, mfu 17.69%
+[2025-01-05 21:12:31] iter 4400: loss 0.8531, time 20.54ms, mfu 17.74%
+[2025-01-05 21:12:31] iter 4410: loss 0.8560, time 20.53ms, mfu 17.78%
+[2025-01-05 21:12:31] iter 4420: loss 0.8563, time 20.53ms, mfu 17.81%
+[2025-01-05 21:12:31] iter 4430: loss 0.8500, time 20.53ms, mfu 17.85%
+[2025-01-05 21:12:32] iter 4440: loss 0.8403, time 20.54ms, mfu 17.88%
+[2025-01-05 21:12:32] iter 4450: loss 0.8520, time 20.56ms, mfu 17.90%
+[2025-01-05 21:12:32] iter 4460: loss 0.8254, time 20.55ms, mfu 17.93%
+[2025-01-05 21:12:32] iter 4470: loss 0.8484, time 20.55ms, mfu 17.95%
+[2025-01-05 21:12:32] iter 4480: loss 0.8304, time 20.54ms, mfu 17.97%
+[2025-01-05 21:12:33] iter 4490: loss 0.8342, time 20.55ms, mfu 17.98%
+[2025-01-05 21:12:36] step 4500: train loss 0.6512, val loss 1.6787
+[2025-01-05 21:12:36] iter 4500: loss 0.8606, time 2995.69ms, mfu 16.20%
+[2025-01-05 21:12:36] iter 4510: loss 0.8357, time 20.54ms, mfu 16.39%
+[2025-01-05 21:12:36] iter 4520: loss 0.8326, time 20.55ms, mfu 16.57%
+[2025-01-05 21:12:36] iter 4530: loss 0.8452, time 20.54ms, mfu 16.72%
+[2025-01-05 21:12:37] iter 4540: loss 0.8463, time 20.54ms, mfu 16.86%
+[2025-01-05 21:12:37] iter 4550: loss 0.8624, time 20.53ms, mfu 16.99%
+[2025-01-05 21:12:37] iter 4560: loss 0.8401, time 20.52ms, mfu 17.11%
+[2025-01-05 21:12:37] iter 4570: loss 0.8343, time 20.54ms, mfu 17.21%
+[2025-01-05 21:12:37] iter 4580: loss 0.8541, time 20.55ms, mfu 17.30%
+[2025-01-05 21:12:38] iter 4590: loss 0.8475, time 20.53ms, mfu 17.39%
+[2025-01-05 21:12:38] iter 4600: loss 0.8261, time 20.56ms, mfu 17.46%
+[2025-01-05 21:12:38] iter 4610: loss 0.8704, time 20.54ms, mfu 17.53%
+[2025-01-05 21:12:38] iter 4620: loss 0.8312, time 20.54ms, mfu 17.59%
+[2025-01-05 21:12:38] iter 4630: loss 0.8118, time 20.55ms, mfu 17.65%
+[2025-01-05 21:12:39] iter 4640: loss 0.8378, time 20.53ms, mfu 17.70%
+[2025-01-05 21:12:39] iter 4650: loss 0.8569, time 20.53ms, mfu 17.74%
+[2025-01-05 21:12:39] iter 4660: loss 0.8475, time 20.54ms, mfu 17.78%
+[2025-01-05 21:12:39] iter 4670: loss 0.8300, time 20.53ms, mfu 17.82%
+[2025-01-05 21:12:39] iter 4680: loss 0.8476, time 20.54ms, mfu 17.85%
+[2025-01-05 21:12:40] iter 4690: loss 0.8408, time 20.55ms, mfu 17.88%
+[2025-01-05 21:12:40] iter 4700: loss 0.8224, time 20.53ms, mfu 17.91%
+[2025-01-05 21:12:40] iter 4710: loss 0.7933, time 20.54ms, mfu 17.93%
+[2025-01-05 21:12:40] iter 4720: loss 0.8354, time 20.54ms, mfu 17.95%
+[2025-01-05 21:12:40] iter 4730: loss 0.8220, time 20.55ms, mfu 17.97%
+[2025-01-05 21:12:41] iter 4740: loss 0.8294, time 20.54ms, mfu 17.99%
+[2025-01-05 21:12:44] step 4750: train loss 0.6344, val loss 1.6947
+[2025-01-05 21:12:44] iter 4750: loss 0.8077, time 2994.75ms, mfu 16.20%
+[2025-01-05 21:12:44] iter 4760: loss 0.8213, time 20.54ms, mfu 16.39%
+[2025-01-05 21:12:44] iter 4770: loss 0.8023, time 20.53ms, mfu 16.57%
+[2025-01-05 21:12:44] iter 4780: loss 0.8054, time 20.53ms, mfu 16.73%
+[2025-01-05 21:12:45] iter 4790: loss 0.8388, time 20.54ms, mfu 16.87%
+[2025-01-05 21:12:45] iter 4800: loss 0.8261, time 20.54ms, mfu 17.00%
+[2025-01-05 21:12:45] iter 4810: loss 0.8333, time 20.55ms, mfu 17.11%
+[2025-01-05 21:12:45] iter 4820: loss 0.8261, time 20.55ms, mfu 17.21%
+[2025-01-05 21:12:45] iter 4830: loss 0.8317, time 20.54ms, mfu 17.30%
+[2025-01-05 21:12:46] iter 4840: loss 0.8270, time 20.54ms, mfu 17.39%
+[2025-01-05 21:12:46] iter 4850: loss 0.8307, time 20.53ms, mfu 17.46%
+[2025-01-05 21:12:46] iter 4860: loss 0.8299, time 20.54ms, mfu 17.53%
+[2025-01-05 21:12:46] iter 4870: loss 0.8032, time 20.53ms, mfu 17.59%
+[2025-01-05 21:12:46] iter 4880: loss 0.8273, time 20.54ms, mfu 17.65%
+[2025-01-05 21:12:47] iter 4890: loss 0.7952, time 20.55ms, mfu 17.70%
+[2025-01-05 21:12:47] iter 4900: loss 0.8028, time 20.53ms, mfu 17.74%
+[2025-01-05 21:12:47] iter 4910: loss 0.8340, time 20.55ms, mfu 17.78%
+[2025-01-05 21:12:47] iter 4920: loss 0.8145, time 20.55ms, mfu 17.82%
+[2025-01-05 21:12:48] iter 4930: loss 0.8033, time 20.54ms, mfu 17.85%
+[2025-01-05 21:12:48] iter 4940: loss 0.7985, time 20.53ms, mfu 17.88%
+[2025-01-05 21:12:48] iter 4950: loss 0.8261, time 20.53ms, mfu 17.91%
+[2025-01-05 21:12:48] iter 4960: loss 0.8335, time 20.54ms, mfu 17.93%
+[2025-01-05 21:12:48] iter 4970: loss 0.7909, time 20.53ms, mfu 17.95%
+[2025-01-05 21:12:49] iter 4980: loss 0.7976, time 20.54ms, mfu 17.97%
+[2025-01-05 21:12:49] iter 4990: loss 0.8266, time 20.54ms, mfu 17.99%
+[2025-01-05 21:12:52] step 5000: train loss 0.6205, val loss 1.7075
+[2025-01-05 21:12:52] iter 5000: loss 0.8083, time 2993.24ms, mfu 16.20%
+[2025-01-05 21:12:52] total training time: 168.7695 seconds
+[2025-01-05 21:12:52] results have been written to ./6.11.5-arch1-1/mimalloc-thp/run_6.json
+Overriding config with config/train_shakespeare_char.py:
+# train a miniature character-level shakespeare model
+# good for debugging and playing on macbooks and such
+
+out_dir = 'out-shakespeare-char'
+eval_interval = 250 # keep frequent because we'll overfit
+eval_iters = 200
+log_interval = 10 # don't print too too often
+
+# we expect to overfit on this small dataset, so only save when val improves
+always_save_checkpoint = False
+
+wandb_log = False # override via command line if you like
+wandb_project = 'shakespeare-char'
+wandb_run_name = 'mini-gpt'
+
+dataset = 'shakespeare_char'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 256 # context of up to 256 previous characters
+
+# baby GPT model :)
+n_layer = 6
+n_head = 6
+n_embd = 384
+dropout = 0.2
+
+learning_rate = 1e-3 # with baby networks can afford to go a bit higher
+max_iters = 5000
+lr_decay_iters = 5000 # make equal to max_iters usually
+min_lr = 1e-4 # learning_rate / 10 usually
+beta2 = 0.99 # make a bit bigger because number of tokens per iter is small
+
+warmup_iters = 100 # not super necessary potentially
+
+# on macbook also add
+# device = 'cpu'  # run on cpu only
+# compile = False # do not torch compile the model
+
+Overriding: max_iters = 5000
+Overriding: results_path = ./6.11.5-arch1-1/mimalloc-thp/run_6.json
+number of parameters: 10.65M
+num decayed parameter tensors: 26, with 10,740,096 parameters
+num non-decayed parameter tensors: 13, with 4,992 parameters
+using fused AdamW: True

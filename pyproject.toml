@@ -7,7 +7,7 @@ requires-python = ">=3.12.6"
 dependencies = [
   "datasets==3.1.0",
   "numpy==2.2.0",
-  "torch==2.4.1",
+  "torch==2.5.1",
   "transformers==4.47.0",
   "tiktoken==0.8.0",
   "wandb==0.19.1",
@@ -15,6 +15,7 @@ dependencies = [
   "polars>=1.17.1",
   "matplotlib>=3.10.0",
   "scipy>=1.14.1",
+  "seaborn>=0.13.2",
 ]
 
 [[tool.uv.index]]

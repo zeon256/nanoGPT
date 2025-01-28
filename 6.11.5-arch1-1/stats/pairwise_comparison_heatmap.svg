@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="957.023615pt" height="847.941749pt" viewBox="0 0 957.023615 847.941749" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="950.023615pt" height="847.941749pt" viewBox="0 0 950.023615 847.941749" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-01-05T14:18:07.604492</dc:date>
+    <dc:date>2025-01-28T22:16:27.199488</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -22,8 +22,8 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 847.941749 
-L 957.023615 847.941749 
-L 957.023615 0 
+L 950.023615 847.941749 
+L 950.023615 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
@@ -39,171 +39,507 @@ z
    </g>
    <g id="QuadMesh_1">
     <path d="M 115.5 25.8 
-L 254.5528 25.8 
-L 254.5528 170.129962 
-L 115.5 170.129962 
+L 192.751556 25.8 
+L 192.751556 105.983312 
+L 115.5 105.983312 
 L 115.5 25.8 
-" clip-path="url(#p654acd117f)" style="fill: none"/>
-    <path d="M 254.5528 25.8 
-L 393.6056 25.8 
-L 393.6056 170.129962 
-L 254.5528 170.129962 
-L 254.5528 25.8 
-" clip-path="url(#p654acd117f)" style="fill: #dcf08f"/>
-    <path d="M 393.6056 25.8 
-L 532.6584 25.8 
-L 532.6584 170.129962 
-L 393.6056 170.129962 
-L 393.6056 25.8 
-" clip-path="url(#p654acd117f)" style="fill: #016a38"/>
-    <path d="M 532.6584 25.8 
-L 671.7112 25.8 
-L 671.7112 170.129962 
-L 532.6584 170.129962 
-L 532.6584 25.8 
-" clip-path="url(#p654acd117f)" style="fill: #98d368"/>
-    <path d="M 671.7112 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 192.751556 25.8 
+L 270.003111 25.8 
+L 270.003111 105.983312 
+L 192.751556 105.983312 
+L 192.751556 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #e0f295"/>
+    <path d="M 270.003111 25.8 
+L 347.254667 25.8 
+L 347.254667 105.983312 
+L 270.003111 105.983312 
+L 270.003111 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #15904c"/>
+    <path d="M 347.254667 25.8 
+L 424.506222 25.8 
+L 424.506222 105.983312 
+L 347.254667 105.983312 
+L 347.254667 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #addc6f"/>
+    <path d="M 424.506222 25.8 
+L 501.757778 25.8 
+L 501.757778 105.983312 
+L 424.506222 105.983312 
+L 424.506222 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #a2d76a"/>
+    <path d="M 501.757778 25.8 
+L 579.009333 25.8 
+L 579.009333 105.983312 
+L 501.757778 105.983312 
+L 501.757778 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #016a38"/>
+    <path d="M 579.009333 25.8 
+L 656.260889 25.8 
+L 656.260889 105.983312 
+L 579.009333 105.983312 
+L 579.009333 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #108647"/>
+    <path d="M 656.260889 25.8 
+L 733.512444 25.8 
+L 733.512444 105.983312 
+L 656.260889 105.983312 
+L 656.260889 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #199750"/>
+    <path d="M 733.512444 25.8 
 L 810.764 25.8 
-L 810.764 170.129962 
-L 671.7112 170.129962 
-L 671.7112 25.8 
-" clip-path="url(#p654acd117f)" style="fill: #06733d"/>
-    <path d="M 115.5 170.129962 
-L 254.5528 170.129962 
-L 254.5528 314.459924 
-L 115.5 314.459924 
-L 115.5 170.129962 
-" clip-path="url(#p654acd117f)" style="fill: #fee18d"/>
-    <path d="M 254.5528 170.129962 
-L 393.6056 170.129962 
-L 393.6056 314.459924 
-L 254.5528 314.459924 
-L 254.5528 170.129962 
-" clip-path="url(#p654acd117f)" style="fill: none"/>
-    <path d="M 393.6056 170.129962 
-L 532.6584 170.129962 
-L 532.6584 314.459924 
-L 393.6056 314.459924 
-L 393.6056 170.129962 
-" clip-path="url(#p654acd117f)" style="fill: #199750"/>
-    <path d="M 532.6584 170.129962 
-L 671.7112 170.129962 
-L 671.7112 314.459924 
-L 532.6584 314.459924 
-L 532.6584 170.129962 
-" clip-path="url(#p654acd117f)" style="fill: #cdea83"/>
-    <path d="M 671.7112 170.129962 
-L 810.764 170.129962 
-L 810.764 314.459924 
-L 671.7112 314.459924 
-L 671.7112 170.129962 
-" clip-path="url(#p654acd117f)" style="fill: #279f53"/>
-    <path d="M 115.5 314.459924 
-L 254.5528 314.459924 
-L 254.5528 458.789886 
-L 115.5 458.789886 
-L 115.5 314.459924 
-" clip-path="url(#p654acd117f)" style="fill: #a50026"/>
-    <path d="M 254.5528 314.459924 
-L 393.6056 314.459924 
-L 393.6056 458.789886 
-L 254.5528 458.789886 
-L 254.5528 314.459924 
-" clip-path="url(#p654acd117f)" style="fill: #d22b27"/>
-    <path d="M 393.6056 314.459924 
-L 532.6584 314.459924 
-L 532.6584 458.789886 
-L 393.6056 458.789886 
-L 393.6056 314.459924 
-" clip-path="url(#p654acd117f)" style="fill: none"/>
-    <path d="M 532.6584 314.459924 
-L 671.7112 314.459924 
-L 671.7112 458.789886 
-L 532.6584 458.789886 
-L 532.6584 314.459924 
-" clip-path="url(#p654acd117f)" style="fill: #f57748"/>
-    <path d="M 671.7112 314.459924 
-L 810.764 314.459924 
-L 810.764 458.789886 
-L 671.7112 458.789886 
-L 671.7112 314.459924 
-" clip-path="url(#p654acd117f)" style="fill: #fff8b4"/>
-    <path d="M 115.5 458.789886 
-L 254.5528 458.789886 
-L 254.5528 603.119848 
-L 115.5 603.119848 
-L 115.5 458.789886 
-" clip-path="url(#p654acd117f)" style="fill: #fba05b"/>
-    <path d="M 254.5528 458.789886 
-L 393.6056 458.789886 
-L 393.6056 603.119848 
-L 254.5528 603.119848 
-L 254.5528 458.789886 
-" clip-path="url(#p654acd117f)" style="fill: #fed27f"/>
-    <path d="M 393.6056 458.789886 
-L 532.6584 458.789886 
-L 532.6584 603.119848 
-L 393.6056 603.119848 
-L 393.6056 458.789886 
-" clip-path="url(#p654acd117f)" style="fill: #75c465"/>
-    <path d="M 532.6584 458.789886 
-L 671.7112 458.789886 
-L 671.7112 603.119848 
-L 532.6584 603.119848 
-L 532.6584 458.789886 
-" clip-path="url(#p654acd117f)" style="fill: none"/>
-    <path d="M 671.7112 458.789886 
-L 810.764 458.789886 
-L 810.764 603.119848 
-L 671.7112 603.119848 
-L 671.7112 458.789886 
-" clip-path="url(#p654acd117f)" style="fill: #82c966"/>
-    <path d="M 115.5 603.119848 
-L 254.5528 603.119848 
-L 254.5528 747.44981 
+L 810.764 105.983312 
+L 733.512444 105.983312 
+L 733.512444 25.8 
+" clip-path="url(#pca70c8a515)" style="fill: #5db961"/>
+    <path d="M 115.5 105.983312 
+L 192.751556 105.983312 
+L 192.751556 186.166624 
+L 115.5 186.166624 
+L 115.5 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #fee695"/>
+    <path d="M 192.751556 105.983312 
+L 270.003111 105.983312 
+L 270.003111 186.166624 
+L 192.751556 186.166624 
+L 192.751556 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 270.003111 105.983312 
+L 347.254667 105.983312 
+L 347.254667 186.166624 
+L 270.003111 186.166624 
+L 270.003111 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #48ae5c"/>
+    <path d="M 347.254667 105.983312 
+L 424.506222 105.983312 
+L 424.506222 186.166624 
+L 347.254667 186.166624 
+L 347.254667 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #d7ee8a"/>
+    <path d="M 424.506222 105.983312 
+L 501.757778 105.983312 
+L 501.757778 186.166624 
+L 424.506222 186.166624 
+L 424.506222 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #cbe982"/>
+    <path d="M 501.757778 105.983312 
+L 579.009333 105.983312 
+L 579.009333 186.166624 
+L 501.757778 186.166624 
+L 501.757778 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #15904c"/>
+    <path d="M 579.009333 105.983312 
+L 656.260889 105.983312 
+L 656.260889 186.166624 
+L 579.009333 186.166624 
+L 579.009333 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #39a758"/>
+    <path d="M 656.260889 105.983312 
+L 733.512444 105.983312 
+L 733.512444 186.166624 
+L 656.260889 186.166624 
+L 656.260889 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #57b65f"/>
+    <path d="M 733.512444 105.983312 
+L 810.764 105.983312 
+L 810.764 186.166624 
+L 733.512444 186.166624 
+L 733.512444 105.983312 
+" clip-path="url(#pca70c8a515)" style="fill: #91d068"/>
+    <path d="M 115.5 186.166624 
+L 192.751556 186.166624 
+L 192.751556 266.349937 
+L 115.5 266.349937 
+L 115.5 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #cc2627"/>
+    <path d="M 192.751556 186.166624 
+L 270.003111 186.166624 
+L 270.003111 266.349937 
+L 192.751556 266.349937 
+L 192.751556 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #e75337"/>
+    <path d="M 270.003111 186.166624 
+L 347.254667 186.166624 
+L 347.254667 266.349937 
+L 270.003111 266.349937 
+L 270.003111 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 347.254667 186.166624 
+L 424.506222 186.166624 
+L 424.506222 266.349937 
+L 347.254667 266.349937 
+L 347.254667 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #fa9656"/>
+    <path d="M 424.506222 186.166624 
+L 501.757778 186.166624 
+L 501.757778 266.349937 
+L 424.506222 266.349937 
+L 424.506222 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #fca55d"/>
+    <path d="M 501.757778 186.166624 
+L 579.009333 186.166624 
+L 579.009333 266.349937 
+L 501.757778 266.349937 
+L 501.757778 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #e0f295"/>
+    <path d="M 579.009333 186.166624 
+L 656.260889 186.166624 
+L 656.260889 266.349937 
+L 579.009333 266.349937 
+L 579.009333 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #f8fcb6"/>
+    <path d="M 656.260889 186.166624 
+L 733.512444 186.166624 
+L 733.512444 266.349937 
+L 656.260889 266.349937 
+L 656.260889 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #fffab6"/>
+    <path d="M 733.512444 186.166624 
+L 810.764 186.166624 
+L 810.764 266.349937 
+L 733.512444 266.349937 
+L 733.512444 186.166624 
+" clip-path="url(#pca70c8a515)" style="fill: #fedc88"/>
+    <path d="M 115.5 266.349937 
+L 192.751556 266.349937 
+L 192.751556 346.533249 
+L 115.5 346.533249 
+L 115.5 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #fdb567"/>
+    <path d="M 192.751556 266.349937 
+L 270.003111 266.349937 
+L 270.003111 346.533249 
+L 192.751556 346.533249 
+L 192.751556 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #fedc88"/>
+    <path d="M 270.003111 266.349937 
+L 347.254667 266.349937 
+L 347.254667 346.533249 
+L 270.003111 346.533249 
+L 270.003111 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #91d068"/>
+    <path d="M 347.254667 266.349937 
+L 424.506222 266.349937 
+L 424.506222 346.533249 
+L 347.254667 346.533249 
+L 347.254667 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 424.506222 266.349937 
+L 501.757778 266.349937 
+L 501.757778 346.533249 
+L 424.506222 346.533249 
+L 424.506222 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #f7fcb4"/>
+    <path d="M 501.757778 266.349937 
+L 579.009333 266.349937 
+L 579.009333 346.533249 
+L 501.757778 346.533249 
+L 501.757778 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #5ab760"/>
+    <path d="M 579.009333 266.349937 
+L 656.260889 266.349937 
+L 656.260889 346.533249 
+L 579.009333 346.533249 
+L 579.009333 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #84ca66"/>
+    <path d="M 656.260889 266.349937 
+L 733.512444 266.349937 
+L 733.512444 346.533249 
+L 656.260889 346.533249 
+L 656.260889 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #9bd469"/>
+    <path d="M 733.512444 266.349937 
+L 810.764 266.349937 
+L 810.764 346.533249 
+L 733.512444 346.533249 
+L 733.512444 266.349937 
+" clip-path="url(#pca70c8a515)" style="fill: #cbe982"/>
+    <path d="M 115.5 346.533249 
+L 192.751556 346.533249 
+L 192.751556 426.716561 
+L 115.5 426.716561 
+L 115.5 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #fca85e"/>
+    <path d="M 192.751556 346.533249 
+L 270.003111 346.533249 
+L 270.003111 426.716561 
+L 192.751556 426.716561 
+L 192.751556 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #fed27f"/>
+    <path d="M 270.003111 346.533249 
+L 347.254667 346.533249 
+L 347.254667 426.716561 
+L 270.003111 426.716561 
+L 270.003111 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #a0d669"/>
+    <path d="M 347.254667 346.533249 
+L 424.506222 346.533249 
+L 424.506222 426.716561 
+L 347.254667 426.716561 
+L 347.254667 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #fff8b4"/>
+    <path d="M 424.506222 346.533249 
+L 501.757778 346.533249 
+L 501.757778 426.716561 
+L 424.506222 426.716561 
+L 424.506222 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 501.757778 346.533249 
+L 579.009333 346.533249 
+L 579.009333 426.716561 
+L 501.757778 426.716561 
+L 501.757778 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #6bbf64"/>
+    <path d="M 579.009333 346.533249 
+L 656.260889 346.533249 
+L 656.260889 426.716561 
+L 579.009333 426.716561 
+L 579.009333 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #93d168"/>
+    <path d="M 656.260889 346.533249 
+L 733.512444 346.533249 
+L 733.512444 426.716561 
+L 656.260889 426.716561 
+L 656.260889 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #a9da6c"/>
+    <path d="M 733.512444 346.533249 
+L 810.764 346.533249 
+L 810.764 426.716561 
+L 733.512444 426.716561 
+L 733.512444 346.533249 
+" clip-path="url(#pca70c8a515)" style="fill: #d7ee8a"/>
+    <path d="M 115.5 426.716561 
+L 192.751556 426.716561 
+L 192.751556 506.899873 
+L 115.5 506.899873 
+L 115.5 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #a50026"/>
+    <path d="M 192.751556 426.716561 
+L 270.003111 426.716561 
+L 270.003111 506.899873 
+L 192.751556 506.899873 
+L 192.751556 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #ca2427"/>
+    <path d="M 270.003111 426.716561 
+L 347.254667 426.716561 
+L 347.254667 506.899873 
+L 270.003111 506.899873 
+L 270.003111 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #fee695"/>
+    <path d="M 347.254667 426.716561 
+L 424.506222 426.716561 
+L 424.506222 506.899873 
+L 347.254667 506.899873 
+L 347.254667 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #ee613e"/>
+    <path d="M 424.506222 426.716561 
+L 501.757778 426.716561 
+L 501.757778 506.899873 
+L 424.506222 506.899873 
+L 424.506222 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #f47044"/>
+    <path d="M 501.757778 426.716561 
+L 579.009333 426.716561 
+L 579.009333 506.899873 
+L 501.757778 506.899873 
+L 501.757778 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 579.009333 426.716561 
+L 656.260889 426.716561 
+L 656.260889 506.899873 
+L 579.009333 506.899873 
+L 579.009333 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #feeb9d"/>
+    <path d="M 656.260889 426.716561 
+L 733.512444 426.716561 
+L 733.512444 506.899873 
+L 656.260889 506.899873 
+L 656.260889 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #fee08b"/>
+    <path d="M 733.512444 426.716561 
+L 810.764 426.716561 
+L 810.764 506.899873 
+L 733.512444 506.899873 
+L 733.512444 426.716561 
+" clip-path="url(#pca70c8a515)" style="fill: #fdb365"/>
+    <path d="M 115.5 506.899873 
+L 192.751556 506.899873 
+L 192.751556 587.083185 
+L 115.5 587.083185 
+L 115.5 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #c21c27"/>
+    <path d="M 192.751556 506.899873 
+L 270.003111 506.899873 
+L 270.003111 587.083185 
+L 192.751556 587.083185 
+L 192.751556 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #e24731"/>
+    <path d="M 270.003111 506.899873 
+L 347.254667 506.899873 
+L 347.254667 587.083185 
+L 270.003111 587.083185 
+L 270.003111 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #fff8b4"/>
+    <path d="M 347.254667 506.899873 
+L 424.506222 506.899873 
+L 424.506222 587.083185 
+L 347.254667 587.083185 
+L 347.254667 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #f88950"/>
+    <path d="M 424.506222 506.899873 
+L 501.757778 506.899873 
+L 501.757778 587.083185 
+L 424.506222 587.083185 
+L 424.506222 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #fa9857"/>
+    <path d="M 501.757778 506.899873 
+L 579.009333 506.899873 
+L 579.009333 587.083185 
+L 501.757778 587.083185 
+L 501.757778 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #e8f59f"/>
+    <path d="M 579.009333 506.899873 
+L 656.260889 506.899873 
+L 656.260889 587.083185 
+L 579.009333 587.083185 
+L 579.009333 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 656.260889 506.899873 
+L 733.512444 506.899873 
+L 733.512444 587.083185 
+L 656.260889 587.083185 
+L 656.260889 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #fff3ac"/>
+    <path d="M 733.512444 506.899873 
+L 810.764 506.899873 
+L 810.764 587.083185 
+L 733.512444 587.083185 
+L 733.512444 506.899873 
+" clip-path="url(#pca70c8a515)" style="fill: #fed27f"/>
+    <path d="M 115.5 587.083185 
+L 192.751556 587.083185 
+L 192.751556 667.266497 
+L 115.5 667.266497 
+L 115.5 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #d42d27"/>
+    <path d="M 192.751556 587.083185 
+L 270.003111 587.083185 
+L 270.003111 667.266497 
+L 192.751556 667.266497 
+L 192.751556 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #ec5c3b"/>
+    <path d="M 270.003111 587.083185 
+L 347.254667 587.083185 
+L 347.254667 667.266497 
+L 270.003111 667.266497 
+L 270.003111 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #f8fcb6"/>
+    <path d="M 347.254667 587.083185 
+L 424.506222 587.083185 
+L 424.506222 667.266497 
+L 347.254667 667.266497 
+L 347.254667 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #fba35c"/>
+    <path d="M 424.506222 587.083185 
+L 501.757778 587.083185 
+L 501.757778 667.266497 
+L 424.506222 667.266497 
+L 424.506222 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #fdaf62"/>
+    <path d="M 501.757778 587.083185 
+L 579.009333 587.083185 
+L 579.009333 667.266497 
+L 501.757778 667.266497 
+L 501.757778 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #daf08d"/>
+    <path d="M 579.009333 587.083185 
+L 656.260889 587.083185 
+L 656.260889 667.266497 
+L 579.009333 667.266497 
+L 579.009333 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #f1f9ac"/>
+    <path d="M 656.260889 587.083185 
+L 733.512444 587.083185 
+L 733.512444 667.266497 
+L 656.260889 667.266497 
+L 656.260889 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
+    <path d="M 733.512444 587.083185 
+L 810.764 587.083185 
+L 810.764 667.266497 
+L 733.512444 667.266497 
+L 733.512444 587.083185 
+" clip-path="url(#pca70c8a515)" style="fill: #fee28f"/>
+    <path d="M 115.5 667.266497 
+L 192.751556 667.266497 
+L 192.751556 747.44981 
 L 115.5 747.44981 
-L 115.5 603.119848 
-" clip-path="url(#p654acd117f)" style="fill: #ad0826"/>
-    <path d="M 254.5528 603.119848 
-L 393.6056 603.119848 
-L 393.6056 747.44981 
-L 254.5528 747.44981 
-L 254.5528 603.119848 
-" clip-path="url(#p654acd117f)" style="fill: #da362a"/>
-    <path d="M 393.6056 603.119848 
-L 532.6584 603.119848 
-L 532.6584 747.44981 
-L 393.6056 747.44981 
-L 393.6056 603.119848 
-" clip-path="url(#p654acd117f)" style="fill: #f8fcb6"/>
-    <path d="M 532.6584 603.119848 
-L 671.7112 603.119848 
-L 671.7112 747.44981 
-L 532.6584 747.44981 
-L 532.6584 603.119848 
-" clip-path="url(#p654acd117f)" style="fill: #f8864f"/>
-    <path d="M 671.7112 603.119848 
-L 810.764 603.119848 
+L 115.5 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #ef633f"/>
+    <path d="M 192.751556 667.266497 
+L 270.003111 667.266497 
+L 270.003111 747.44981 
+L 192.751556 747.44981 
+L 192.751556 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #fa9857"/>
+    <path d="M 270.003111 667.266497 
+L 347.254667 667.266497 
+L 347.254667 747.44981 
+L 270.003111 747.44981 
+L 270.003111 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #d5ed88"/>
+    <path d="M 347.254667 667.266497 
+L 424.506222 667.266497 
+L 424.506222 747.44981 
+L 347.254667 747.44981 
+L 347.254667 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #fed27f"/>
+    <path d="M 424.506222 667.266497 
+L 501.757778 667.266497 
+L 501.757778 747.44981 
+L 424.506222 747.44981 
+L 424.506222 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #fedc88"/>
+    <path d="M 501.757778 667.266497 
+L 579.009333 667.266497 
+L 579.009333 747.44981 
+L 501.757778 747.44981 
+L 501.757778 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #addc6f"/>
+    <path d="M 579.009333 667.266497 
+L 656.260889 667.266497 
+L 656.260889 747.44981 
+L 579.009333 747.44981 
+L 579.009333 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #cbe982"/>
+    <path d="M 656.260889 667.266497 
+L 733.512444 667.266497 
+L 733.512444 747.44981 
+L 656.260889 747.44981 
+L 656.260889 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: #ddf191"/>
+    <path d="M 733.512444 667.266497 
+L 810.764 667.266497 
 L 810.764 747.44981 
-L 671.7112 747.44981 
-L 671.7112 603.119848 
-" clip-path="url(#p654acd117f)" style="fill: none"/>
+L 733.512444 747.44981 
+L 733.512444 667.266497 
+" clip-path="url(#pca70c8a515)" style="fill: none"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="maa60be6b2d" d="M 0 0 
+       <path id="m67baa5b6f9" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#maa60be6b2d" x="185.0264" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m67baa5b6f9" x="154.125778" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
       <!-- baseline -->
-      <g transform="translate(143.300029 801.323918) rotate(-45) scale(0.14 -0.14)">
+      <g transform="translate(112.399407 801.323918) rotate(-45) scale(0.14 -0.14)">
        <defs>
         <path id="IosevkaNFM-62" d="M 1798 -51 
 Q 1651 -51 1507 -12 
@@ -545,12 +881,12 @@ z
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#maa60be6b2d" x="324.0792" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m67baa5b6f9" x="231.377333" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
       <!-- splitlock -->
-      <g transform="translate(277.403081 806.273666) rotate(-45) scale(0.14 -0.14)">
+      <g transform="translate(184.701215 806.273666) rotate(-45) scale(0.14 -0.14)">
        <defs>
         <path id="IosevkaNFM-70" d="M 410 -1376 
 L 410 3328 
@@ -793,12 +1129,12 @@ z
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#maa60be6b2d" x="463.132" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m67baa5b6f9" x="308.628889" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
       <!-- jemalloc-thp -->
-      <g transform="translate(401.527752 821.122908) rotate(-45) scale(0.14 -0.14)">
+      <g transform="translate(247.024641 821.122908) rotate(-45) scale(0.14 -0.14)">
        <defs>
         <path id="IosevkaNFM-6a" d="M 1184 -1427 
 Q 1043 -1427 902 -1398 
@@ -956,12 +1292,12 @@ z
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#maa60be6b2d" x="602.1848" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m67baa5b6f9" x="385.880444" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
       <!-- thp -->
-      <g transform="translate(585.207166 776.575181) rotate(-45) scale(0.14 -0.14)">
+      <g transform="translate(368.902811 776.575181) rotate(-45) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-74"/>
        <use xlink:href="#IosevkaNFM-68" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-70" transform="translate(99.999969 0)"/>
@@ -971,12 +1307,80 @@ z
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#maa60be6b2d" x="741.2376" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m67baa5b6f9" x="463.132" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
+      <!-- tcmalloc-thp -->
+      <g transform="translate(401.606639 821.122908) rotate(-45) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-74"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+       <use xlink:href="#IosevkaNFM-2d" transform="translate(399.999878 0)"/>
+       <use xlink:href="#IosevkaNFM-74" transform="translate(449.999863 0)"/>
+       <use xlink:href="#IosevkaNFM-68" transform="translate(499.999847 0)"/>
+       <use xlink:href="#IosevkaNFM-70" transform="translate(549.999832 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m67baa5b6f9" x="540.383556" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- mimalloc-thp -->
+      <g transform="translate(478.858195 821.122908) rotate(-45) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-6d"/>
+       <use xlink:href="#IosevkaNFM-69" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+       <use xlink:href="#IosevkaNFM-2d" transform="translate(399.999878 0)"/>
+       <use xlink:href="#IosevkaNFM-74" transform="translate(449.999863 0)"/>
+       <use xlink:href="#IosevkaNFM-68" transform="translate(499.999847 0)"/>
+       <use xlink:href="#IosevkaNFM-70" transform="translate(549.999832 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m67baa5b6f9" x="617.635111" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- mimalloc -->
+      <g transform="translate(575.90874 801.323918) rotate(-45) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-6d"/>
+       <use xlink:href="#IosevkaNFM-69" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m67baa5b6f9" x="694.886667" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
       <!-- jemalloc -->
-      <g transform="translate(699.432342 801.323918) rotate(-45) scale(0.14 -0.14)">
+      <g transform="translate(653.081409 801.323918) rotate(-45) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-6a"/>
        <use xlink:href="#IosevkaNFM-65" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
@@ -988,7 +1392,27 @@ z
       </g>
      </g>
     </g>
-    <g id="text_6">
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m67baa5b6f9" x="772.138222" y="747.44981" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- tcmalloc -->
+      <g transform="translate(730.411851 801.323918) rotate(-45) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-74"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_10">
      <!-- Comparison Experiment -->
      <g transform="translate(389.632 837.731749) scale(0.14 -0.14)">
       <defs>
@@ -1130,19 +1554,19 @@ z
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_6">
+     <g id="line2d_10">
       <defs>
-       <path id="m5db91e914b" d="M 0 0 
+       <path id="m5b5dadc2ad" d="M 0 0 
 L -3.5 0 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m5db91e914b" x="115.5" y="97.964981" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="65.891656" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_7">
+     <g id="text_11">
       <!-- baseline -->
-      <g transform="translate(52.5 101.604981) scale(0.14 -0.14)">
+      <g transform="translate(52.5 69.531656) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-62"/>
        <use xlink:href="#IosevkaNFM-61" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-73" transform="translate(99.999969 0)"/>
@@ -1155,14 +1579,14 @@ L -3.5 0
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_7">
+     <g id="line2d_11">
       <g>
-       <use xlink:href="#m5db91e914b" x="115.5" y="242.294943" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="146.074968" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_8">
+     <g id="text_12">
       <!-- splitlock -->
-      <g transform="translate(45.5 245.934943) scale(0.14 -0.14)">
+      <g transform="translate(45.5 149.714968) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-73"/>
        <use xlink:href="#IosevkaNFM-70" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-6c" transform="translate(99.999969 0)"/>
@@ -1176,14 +1600,14 @@ L -3.5 0
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_8">
+     <g id="line2d_12">
       <g>
-       <use xlink:href="#m5db91e914b" x="115.5" y="386.624905" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="226.25828" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_9">
+     <g id="text_13">
       <!-- jemalloc-thp -->
-      <g transform="translate(24.5 390.209124) scale(0.14 -0.14)">
+      <g transform="translate(24.5 229.842499) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-6a"/>
        <use xlink:href="#IosevkaNFM-65" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
@@ -1200,14 +1624,14 @@ L -3.5 0
      </g>
     </g>
     <g id="ytick_4">
-     <g id="line2d_9">
+     <g id="line2d_13">
       <g>
-       <use xlink:href="#m5db91e914b" x="115.5" y="530.954867" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="306.441593" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_10">
+     <g id="text_14">
       <!-- thp -->
-      <g transform="translate(87.5 534.594867) scale(0.14 -0.14)">
+      <g transform="translate(87.5 310.081593) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-74"/>
        <use xlink:href="#IosevkaNFM-68" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-70" transform="translate(99.999969 0)"/>
@@ -1215,14 +1639,82 @@ L -3.5 0
      </g>
     </g>
     <g id="ytick_5">
-     <g id="line2d_10">
+     <g id="line2d_14">
       <g>
-       <use xlink:href="#m5db91e914b" x="115.5" y="675.284829" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="386.624905" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_11">
+     <g id="text_15">
+      <!-- tcmalloc-thp -->
+      <g transform="translate(24.5 390.264905) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-74"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+       <use xlink:href="#IosevkaNFM-2d" transform="translate(399.999878 0)"/>
+       <use xlink:href="#IosevkaNFM-74" transform="translate(449.999863 0)"/>
+       <use xlink:href="#IosevkaNFM-68" transform="translate(499.999847 0)"/>
+       <use xlink:href="#IosevkaNFM-70" transform="translate(549.999832 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="466.808217" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- mimalloc-thp -->
+      <g transform="translate(24.5 470.448217) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-6d"/>
+       <use xlink:href="#IosevkaNFM-69" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+       <use xlink:href="#IosevkaNFM-2d" transform="translate(399.999878 0)"/>
+       <use xlink:href="#IosevkaNFM-74" transform="translate(449.999863 0)"/>
+       <use xlink:href="#IosevkaNFM-68" transform="translate(499.999847 0)"/>
+       <use xlink:href="#IosevkaNFM-70" transform="translate(549.999832 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="546.991529" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- mimalloc -->
+      <g transform="translate(52.5 550.631529) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-6d"/>
+       <use xlink:href="#IosevkaNFM-69" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="627.174841" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
       <!-- jemalloc -->
-      <g transform="translate(52.5 678.869047) scale(0.14 -0.14)">
+      <g transform="translate(52.5 630.75906) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-6a"/>
        <use xlink:href="#IosevkaNFM-65" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
@@ -1234,7 +1726,27 @@ L -3.5 0
       </g>
      </g>
     </g>
-    <g id="text_12">
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m5b5dadc2ad" x="115.5" y="707.358154" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <!-- tcmalloc -->
+      <g transform="translate(52.5 710.998154) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-74"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-6d" transform="translate(99.999969 0)"/>
+       <use xlink:href="#IosevkaNFM-61" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(199.999939 0)"/>
+       <use xlink:href="#IosevkaNFM-6c" transform="translate(249.999924 0)"/>
+       <use xlink:href="#IosevkaNFM-6f" transform="translate(299.999908 0)"/>
+       <use xlink:href="#IosevkaNFM-63" transform="translate(349.999893 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_20">
      <!-- Base Experiment -->
      <g transform="translate(17.49 439.124905) rotate(-90) scale(0.14 -0.14)">
       <defs>
@@ -1317,9 +1829,9 @@ z
      </g>
     </g>
    </g>
-   <g id="text_13">
+   <g id="text_21">
     <!-- -0.20% -->
-    <g transform="translate(303.0792 93.859043) scale(0.14 -0.14)">
+    <g transform="translate(210.377333 61.785719) scale(0.14 -0.14)">
      <defs>
       <path id="IosevkaNFM-30" d="M 1600 -51 
 Q 1427 -51 1254 -16 
@@ -1555,7 +2067,7 @@ z
      <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
     <!-- p=0.484 -->
-    <g transform="translate(299.5792 109.350918) scale(0.14 -0.14)">
+    <g transform="translate(206.877333 77.277594) scale(0.14 -0.14)">
      <defs>
       <path id="IosevkaNFM-3d" d="M 410 2522 
 L 410 2970 
@@ -1677,9 +2189,9 @@ z
      <use xlink:href="#IosevkaNFM-34" transform="translate(299.999908 0)"/>
     </g>
    </g>
-   <g id="text_14">
+   <g id="text_22">
     <!-- -1.03% -->
-    <g transform="translate(442.132 93.859043) scale(0.14 -0.14)">
+    <g transform="translate(287.628889 61.785719) scale(0.14 -0.14)">
      <defs>
       <path id="IosevkaNFM-31" d="M 1542 0 
 L 1542 4134 
@@ -1769,7 +2281,7 @@ z
      <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
     <!-- p=0.000 -->
-    <g transform="translate(438.632 109.350918) scale(0.14 -0.14)">
+    <g transform="translate(284.128889 77.277594) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-70"/>
      <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
@@ -1779,9 +2291,9 @@ z
      <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
     </g>
    </g>
-   <g id="text_15">
+   <g id="text_23">
     <!-- -0.46% -->
-    <g transform="translate(581.1848 93.859043) scale(0.14 -0.14)">
+    <g transform="translate(364.880444 61.785719) scale(0.14 -0.14)">
      <defs>
       <path id="IosevkaNFM-36" d="M 1600 -51 
 Q 1408 -51 1222 0 
@@ -1856,7 +2368,7 @@ z
      <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
     <!-- p=0.095 -->
-    <g transform="translate(577.6848 109.350918) scale(0.14 -0.14)">
+    <g transform="translate(361.380444 77.277594) scale(0.14 -0.14)">
      <defs>
       <path id="IosevkaNFM-39" d="M 1062 0 
 L 1715 1293 
@@ -1984,9 +2496,72 @@ z
      <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
     </g>
    </g>
-   <g id="text_16">
+   <g id="text_24">
+    <!-- -0.51% -->
+    <g transform="translate(442.132 61.785719) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.063 -->
+    <g transform="translate(438.632 77.277594) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- -1.23% -->
+    <g transform="translate(519.383556 61.785719) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 77.277594) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <!-- -1.08% -->
+    <g transform="translate(596.635111 61.785719) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(593.135111 77.277594) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_27">
     <!-- -0.99% -->
-    <g transform="translate(720.2376 93.859043) scale(0.14 -0.14)">
+    <g transform="translate(673.886667 61.785719) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-2d"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
@@ -1995,7 +2570,7 @@ z
      <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
     <!-- p=0.001 -->
-    <g transform="translate(716.7376 109.350918) scale(0.14 -0.14)">
+    <g transform="translate(670.386667 77.277594) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-70"/>
      <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
@@ -2005,9 +2580,42 @@ z
      <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
     </g>
    </g>
-   <g id="text_17">
+   <g id="text_28">
+    <!-- -0.77% -->
+    <g transform="translate(751.138222 61.785719) scale(0.14 -0.14)">
+     <defs>
+      <path id="IosevkaNFM-37" d="M 934 0 
+L 2272 4256 
+L 410 4256 
+L 410 4704 
+L 2790 4704 
+L 2790 4256 
+L 1446 0 
+L 934 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.044 -->
+    <g transform="translate(747.638222 77.277594) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_29">
     <!-- 0.20% -->
-    <g transform="translate(167.5264 238.189005) scale(0.14 -0.14)">
+    <g transform="translate(136.625778 141.969031) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-30"/>
      <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
@@ -2015,7 +2623,7 @@ z
      <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
     </g>
     <!-- p=0.484 -->
-    <g transform="translate(160.5264 253.68088) scale(0.14 -0.14)">
+    <g transform="translate(129.625778 157.460906) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-70"/>
      <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
@@ -2025,262 +2633,18 @@ z
      <use xlink:href="#IosevkaNFM-34" transform="translate(299.999908 0)"/>
     </g>
    </g>
-   <g id="text_18">
-    <!-- -0.84% -->
-    <g transform="translate(442.132 238.189005) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-2d"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(438.632 253.68088) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_19">
-    <!-- -0.26% -->
-    <g transform="translate(581.1848 238.189005) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-2d"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-36" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
-    </g>
-    <!-- p=0.001 -->
-    <g transform="translate(577.6848 253.68088) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_20">
-    <!-- -0.80% -->
-    <g transform="translate(720.2376 238.189005) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-2d"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(716.7376 253.68088) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_21">
-    <!-- 1.04% -->
-    <g transform="translate(167.5264 382.518967) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-31"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(160.5264 398.010842) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_22">
-    <!-- 0.85% -->
-    <g transform="translate(306.5792 382.518967) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(299.5792 398.010842) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_23">
-    <!-- 0.58% -->
-    <g transform="translate(584.6848 382.518967) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(577.6848 398.010842) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_24">
-    <!-- 0.04% -->
-    <g transform="translate(723.7376 382.518967) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.058 -->
-    <g transform="translate(716.7376 398.010842) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_25">
-    <!-- 0.46% -->
-    <g transform="translate(167.5264 526.848929) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-36" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.095 -->
-    <g transform="translate(160.5264 542.340804) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-39" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_26">
-    <!-- 0.26% -->
-    <g transform="translate(306.5792 526.848929) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-36" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.001 -->
-    <g transform="translate(299.5792 542.340804) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_27">
-    <!-- -0.58% -->
-    <g transform="translate(442.132 526.848929) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-2d"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(438.632 542.340804) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_28">
-    <!-- -0.54% -->
-    <g transform="translate(720.2376 526.848929) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-2d"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
-    </g>
-    <!-- p=0.000 -->
-    <g transform="translate(716.7376 542.340804) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
-   <g id="text_29">
-    <!-- 1.00% -->
-    <g transform="translate(167.5264 671.178891) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-31"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
-    </g>
-    <!-- p=0.001 -->
-    <g transform="translate(160.5264 686.670766) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-70"/>
-     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
-    </g>
-   </g>
    <g id="text_30">
-    <!-- 0.80% -->
-    <g transform="translate(306.5792 671.178891) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    <!-- -0.84% -->
+    <g transform="translate(287.628889 141.969031) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
     <!-- p=0.000 -->
-    <g transform="translate(299.5792 686.670766) scale(0.14 -0.14)">
+    <g transform="translate(284.128889 157.460906) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-70"/>
      <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
@@ -2291,37 +2655,38 @@ z
     </g>
    </g>
    <g id="text_31">
-    <!-- -0.04% -->
-    <g transform="translate(442.132 671.178891) scale(0.14 -0.14)">
+    <!-- -0.26% -->
+    <g transform="translate(364.880444 141.969031) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-2d"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(199.999939 0)"/>
      <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
-    <!-- p=0.058 -->
-    <g transform="translate(438.632 686.670766) scale(0.14 -0.14)">
+    <!-- p=0.001 -->
+    <g transform="translate(361.380444 157.460906) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-70"/>
      <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
      <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(249.999924 0)"/>
-     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
     </g>
    </g>
    <g id="text_32">
-    <!-- 0.54% -->
-    <g transform="translate(584.6848 671.178891) scale(0.14 -0.14)">
-     <use xlink:href="#IosevkaNFM-30"/>
-     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
-     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
-     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    <!-- -0.32% -->
+    <g transform="translate(442.132 141.969031) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
     </g>
     <!-- p=0.000 -->
-    <g transform="translate(577.6848 686.670766) scale(0.14 -0.14)">
+    <g transform="translate(438.632 157.460906) scale(0.14 -0.14)">
      <use xlink:href="#IosevkaNFM-70"/>
      <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
      <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
@@ -2332,6 +2697,1231 @@ z
     </g>
    </g>
    <g id="text_33">
+    <!-- -1.04% -->
+    <g transform="translate(519.383556 141.969031) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 157.460906) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <!-- -0.89% -->
+    <g transform="translate(596.635111 141.969031) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(593.135111 157.460906) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <!-- -0.80% -->
+    <g transform="translate(673.886667 141.969031) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(670.386667 157.460906) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <!-- -0.57% -->
+    <g transform="translate(751.138222 141.969031) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.038 -->
+    <g transform="translate(747.638222 157.460906) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <!-- 1.04% -->
+    <g transform="translate(136.625778 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-31"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(129.625778 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_38">
+    <!-- 0.85% -->
+    <g transform="translate(213.877333 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(206.877333 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <!-- 0.58% -->
+    <g transform="translate(368.380444 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(361.380444 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <!-- 0.53% -->
+    <g transform="translate(445.632 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(438.632 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_41">
+    <!-- -0.20% -->
+    <g transform="translate(519.383556 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <!-- -0.05% -->
+    <g transform="translate(596.635111 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.030 -->
+    <g transform="translate(593.135111 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <!-- 0.04% -->
+    <g transform="translate(677.386667 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.058 -->
+    <g transform="translate(670.386667 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <!-- 0.27% -->
+    <g transform="translate(754.638222 222.152343) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.316 -->
+    <g transform="translate(747.638222 237.644218) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <!-- 0.46% -->
+    <g transform="translate(136.625778 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.095 -->
+    <g transform="translate(129.625778 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <!-- 0.26% -->
+    <g transform="translate(213.877333 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.001 -->
+    <g transform="translate(206.877333 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <!-- -0.58% -->
+    <g transform="translate(287.628889 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(284.128889 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_48">
+    <!-- -0.05% -->
+    <g transform="translate(442.132 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.002 -->
+    <g transform="translate(438.632 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_49">
+    <!-- -0.78% -->
+    <g transform="translate(519.383556 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_50">
+    <!-- -0.63% -->
+    <g transform="translate(596.635111 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(593.135111 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_51">
+    <!-- -0.54% -->
+    <g transform="translate(673.886667 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(670.386667 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_52">
+    <!-- -0.31% -->
+    <g transform="translate(751.138222 302.335655) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.235 -->
+    <g transform="translate(747.638222 317.82753) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_53">
+    <!-- 0.51% -->
+    <g transform="translate(136.625778 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.063 -->
+    <g transform="translate(129.625778 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_54">
+    <!-- 0.32% -->
+    <g transform="translate(213.877333 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(206.877333 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_55">
+    <!-- -0.52% -->
+    <g transform="translate(287.628889 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(284.128889 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_56">
+    <!-- 0.05% -->
+    <g transform="translate(368.380444 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.002 -->
+    <g transform="translate(361.380444 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_57">
+    <!-- -0.73% -->
+    <g transform="translate(519.383556 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <!-- -0.57% -->
+    <g transform="translate(596.635111 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(593.135111 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_59">
+    <!-- -0.48% -->
+    <g transform="translate(673.886667 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(670.386667 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_60">
+    <!-- -0.26% -->
+    <g transform="translate(751.138222 382.518967) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.325 -->
+    <g transform="translate(747.638222 398.010842) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_61">
+    <!-- 1.25% -->
+    <g transform="translate(136.625778 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-31"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(129.625778 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_62">
+    <!-- 1.05% -->
+    <g transform="translate(213.877333 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-31"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(206.877333 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_63">
+    <!-- 0.20% -->
+    <g transform="translate(291.128889 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(284.128889 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_64">
+    <!-- 0.78% -->
+    <g transform="translate(368.380444 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(361.380444 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_65">
+    <!-- 0.73% -->
+    <g transform="translate(445.632 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(438.632 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_66">
+    <!-- 0.15% -->
+    <g transform="translate(600.135111 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(593.135111 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_67">
+    <!-- 0.24% -->
+    <g transform="translate(677.386667 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(670.386667 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_68">
+    <!-- 0.47% -->
+    <g transform="translate(754.638222 462.702279) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.081 -->
+    <g transform="translate(747.638222 478.194154) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_69">
+    <!-- 1.09% -->
+    <g transform="translate(136.625778 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-31"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(129.625778 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_70">
+    <!-- 0.89% -->
+    <g transform="translate(213.877333 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(206.877333 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_71">
+    <!-- 0.05% -->
+    <g transform="translate(291.128889 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.030 -->
+    <g transform="translate(284.128889 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_72">
+    <!-- 0.63% -->
+    <g transform="translate(368.380444 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(361.380444 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_73">
+    <!-- 0.57% -->
+    <g transform="translate(445.632 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(438.632 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_74">
+    <!-- -0.15% -->
+    <g transform="translate(519.383556 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_75">
+    <!-- 0.09% -->
+    <g transform="translate(677.386667 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(670.386667 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_76">
+    <!-- 0.31% -->
+    <g transform="translate(754.638222 542.885592) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.239 -->
+    <g transform="translate(747.638222 558.377467) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_77">
+    <!-- 1.00% -->
+    <g transform="translate(136.625778 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-31"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.001 -->
+    <g transform="translate(129.625778 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_78">
+    <!-- 0.80% -->
+    <g transform="translate(213.877333 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(206.877333 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_79">
+    <!-- -0.04% -->
+    <g transform="translate(287.628889 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.058 -->
+    <g transform="translate(284.128889 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_80">
+    <!-- 0.54% -->
+    <g transform="translate(368.380444 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(361.380444 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_81">
+    <!-- 0.49% -->
+    <g transform="translate(445.632 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(438.632 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_82">
+    <!-- -0.24% -->
+    <g transform="translate(519.383556 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(515.883556 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_83">
+    <!-- -0.09% -->
+    <g transform="translate(596.635111 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.000 -->
+    <g transform="translate(593.135111 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_84">
+    <!-- 0.22% -->
+    <g transform="translate(754.638222 623.068904) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.398 -->
+    <g transform="translate(747.638222 638.560779) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_85">
+    <!-- 0.78% -->
+    <g transform="translate(136.625778 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.044 -->
+    <g transform="translate(129.625778 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_86">
+    <!-- 0.58% -->
+    <g transform="translate(213.877333 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.038 -->
+    <g transform="translate(206.877333 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_87">
+    <!-- -0.27% -->
+    <g transform="translate(287.628889 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.316 -->
+    <g transform="translate(284.128889 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_88">
+    <!-- 0.31% -->
+    <g transform="translate(368.380444 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.235 -->
+    <g transform="translate(361.380444 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_89">
+    <!-- 0.26% -->
+    <g transform="translate(445.632 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-30"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-36" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(199.999939 0)"/>
+    </g>
+    <!-- p=0.325 -->
+    <g transform="translate(438.632 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-35" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_90">
+    <!-- -0.47% -->
+    <g transform="translate(519.383556 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-34" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-37" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.081 -->
+    <g transform="translate(515.883556 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_91">
+    <!-- -0.31% -->
+    <g transform="translate(596.635111 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-31" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.239 -->
+    <g transform="translate(593.135111 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_92">
+    <!-- -0.22% -->
+    <g transform="translate(673.886667 703.252216) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-2d"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-32" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-25" transform="translate(249.999924 0)"/>
+    </g>
+    <!-- p=0.398 -->
+    <g transform="translate(670.386667 718.744091) scale(0.14 -0.14)">
+     <use xlink:href="#IosevkaNFM-70"/>
+     <use xlink:href="#IosevkaNFM-3d" transform="translate(49.999985 0)"/>
+     <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
+     <use xlink:href="#IosevkaNFM-2e" transform="translate(149.999954 0)"/>
+     <use xlink:href="#IosevkaNFM-33" transform="translate(199.999939 0)"/>
+     <use xlink:href="#IosevkaNFM-39" transform="translate(249.999924 0)"/>
+     <use xlink:href="#IosevkaNFM-38" transform="translate(299.999908 0)"/>
+    </g>
+   </g>
+   <g id="text_93">
     <!-- Pairwise Comparison: % Difference and p-value -->
     <g transform="translate(274.132 19.8) scale(0.168 -0.168)">
      <defs>
@@ -3318,23 +4908,23 @@ z
 " style="fill: #ffffff"/>
    </g>
    <image xlink:href="data:image/png;base64,
-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" id="image0f0ae2b4df" transform="scale(1 -1) translate(0 -721.68)" x="854.16" y="-25.68" width="36.24" height="721.68"/>
+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" id="image98550c497a" transform="scale(1 -1) translate(0 -721.68)" x="854.16" y="-25.68" width="36.24" height="721.68"/>
    <g id="matplotlib.axis_3"/>
    <g id="matplotlib.axis_4">
-    <g id="ytick_6">
-     <g id="line2d_11">
+    <g id="ytick_10">
+     <g id="line2d_19">
       <defs>
-       <path id="m7115a3e8d5" d="M 0 0 
+       <path id="ma60f88599a" d="M 0 0 
 L 3.5 0 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="735.694392" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#ma60f88599a" x="890.30049" y="679.721655" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_34">
-      <!-- −1.00 -->
-      <g transform="translate(897.30049 740.839392) scale(0.14 -0.14)">
+     <g id="text_94">
+      <!-- −1.0 -->
+      <g transform="translate(897.30049 684.866655) scale(0.14 -0.14)">
        <defs>
         <path id="IosevkaNFM-2212" d="M 410 1952 
 L 410 2400 
@@ -3348,156 +4938,73 @@ z
        <use xlink:href="#IosevkaNFM-31" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
        <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="line2d_12">
-      <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="648.895746" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_35">
-      <!-- −0.75 -->
-      <g transform="translate(897.30049 654.040746) scale(0.14 -0.14)">
-       <defs>
-        <path id="IosevkaNFM-37" d="M 934 0 
-L 2272 4256 
-L 410 4256 
-L 410 4704 
-L 2790 4704 
-L 2790 4256 
-L 1446 0 
-L 934 0 
-z
-" transform="scale(0.015625)"/>
-       </defs>
-       <use xlink:href="#IosevkaNFM-2212"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-37" transform="translate(149.999954 0)"/>
-       <use xlink:href="#IosevkaNFM-35" transform="translate(199.999939 0)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_8">
-     <g id="line2d_13">
-      <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="562.097099" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_36">
-      <!-- −0.50 -->
-      <g transform="translate(897.30049 567.242099) scale(0.14 -0.14)">
-       <use xlink:href="#IosevkaNFM-2212"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(199.999939 0)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_9">
-     <g id="line2d_14">
-      <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="475.298452" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_37">
-      <!-- −0.25 -->
-      <g transform="translate(897.30049 480.443452) scale(0.14 -0.14)">
-       <use xlink:href="#IosevkaNFM-2212"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-32" transform="translate(149.999954 0)"/>
-       <use xlink:href="#IosevkaNFM-35" transform="translate(199.999939 0)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_10">
-     <g id="line2d_15">
-      <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="388.499806" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_38">
-      <!-- 0.00 -->
-      <g transform="translate(897.30049 393.644806) scale(0.14 -0.14)">
-       <use xlink:href="#IosevkaNFM-30"/>
-       <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
       </g>
      </g>
     </g>
     <g id="ytick_11">
-     <g id="line2d_16">
+     <g id="line2d_20">
       <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="301.701159" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#ma60f88599a" x="890.30049" y="534.292291" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_39">
-      <!-- 0.25 -->
-      <g transform="translate(897.30049 306.846159) scale(0.14 -0.14)">
-       <use xlink:href="#IosevkaNFM-30"/>
-       <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-32" transform="translate(99.999969 0)"/>
+     <g id="text_95">
+      <!-- −0.5 -->
+      <g transform="translate(897.30049 539.437291) scale(0.14 -0.14)">
+       <use xlink:href="#IosevkaNFM-2212"/>
+       <use xlink:href="#IosevkaNFM-30" transform="translate(49.999985 0)"/>
+       <use xlink:href="#IosevkaNFM-2e" transform="translate(99.999969 0)"/>
        <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
       </g>
      </g>
     </g>
     <g id="ytick_12">
-     <g id="line2d_17">
+     <g id="line2d_21">
       <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="214.902513" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#ma60f88599a" x="890.30049" y="388.862926" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_40">
-      <!-- 0.50 -->
-      <g transform="translate(897.30049 220.047513) scale(0.14 -0.14)">
+     <g id="text_96">
+      <!-- 0.0 -->
+      <g transform="translate(897.30049 394.007926) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-30"/>
        <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
       </g>
      </g>
     </g>
     <g id="ytick_13">
-     <g id="line2d_18">
+     <g id="line2d_22">
       <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="128.103866" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#ma60f88599a" x="890.30049" y="243.433561" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_41">
-      <!-- 0.75 -->
-      <g transform="translate(897.30049 133.248866) scale(0.14 -0.14)">
+     <g id="text_97">
+      <!-- 0.5 -->
+      <g transform="translate(897.30049 248.578561) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-30"/>
        <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
-       <use xlink:href="#IosevkaNFM-37" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-35" transform="translate(149.999954 0)"/>
+       <use xlink:href="#IosevkaNFM-35" transform="translate(99.999969 0)"/>
       </g>
      </g>
     </g>
     <g id="ytick_14">
-     <g id="line2d_19">
+     <g id="line2d_23">
       <g>
-       <use xlink:href="#m7115a3e8d5" x="890.30049" y="41.305219" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#ma60f88599a" x="890.30049" y="98.004197" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_42">
-      <!-- 1.00 -->
-      <g transform="translate(897.30049 46.450219) scale(0.14 -0.14)">
+     <g id="text_98">
+      <!-- 1.0 -->
+      <g transform="translate(897.30049 103.149197) scale(0.14 -0.14)">
        <use xlink:href="#IosevkaNFM-31"/>
        <use xlink:href="#IosevkaNFM-2e" transform="translate(49.999985 0)"/>
        <use xlink:href="#IosevkaNFM-30" transform="translate(99.999969 0)"/>
-       <use xlink:href="#IosevkaNFM-30" transform="translate(149.999954 0)"/>
       </g>
      </g>
     </g>
-    <g id="text_43">
+    <g id="text_99">
      <!-- Percentage Difference -->
-     <g transform="translate(946.702053 460.124905) rotate(-90) scale(0.14 -0.14)">
+     <g transform="translate(939.702053 460.124905) rotate(-90) scale(0.14 -0.14)">
       <defs>
        <path id="IosevkaNFM-50" d="M 512 0 
 L 512 4704 
@@ -3727,7 +5234,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p654acd117f">
+  <clipPath id="pca70c8a515">
    <rect x="115.5" y="25.8" width="695.264" height="721.64981"/>
   </clipPath>
  </defs>
