@@ -250,7 +250,6 @@ def plot_percentage_improvement(
     plt.close()
     logging.info(f"Percentage improvement chart saved to {output_path}")
 
-
 def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     """
     Creates a heatmap of pairwise comparisons between all experiments,
@@ -263,6 +262,7 @@ def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     mean_times = []
     all_times = []
     labels = []
+
     for folder in benchmark_folders:
         execution_times = read_json_data(folder)
         mean_times.append(np.mean(execution_times))
@@ -273,6 +273,7 @@ def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     n = len(mean_times)
     diff_matrix = np.zeros((n, n), dtype=object)
     color_matrix = np.zeros((n, n))
+
     for i in range(n):
         for j in range(n):
             if i != j:
@@ -287,25 +288,61 @@ def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     # Create heatmap
     plt.figure(figsize=(14, 12))
 
-    # Create a mask for the diagonal
-    mask = np.eye(n, dtype=bool)
-
-    # Create the heatmap
+    # Create the heatmap with annotations disabled
     ax = sns.heatmap(
         color_matrix,
-        annot=diff_matrix,
+        annot=False,  # Ensure no built-in annotations
         fmt="",
-        cmap="RdYlGn_r",
+        cmap="viridis",
         xticklabels=labels,
         yticklabels=labels,
-        mask=mask,
         center=0,
         cbar_kws={"label": "Percentage Difference"},
     )
+    
+    # Get the colormap and normalization function for brightness calculations
+    cmap_used = plt.get_cmap("viridis")
+    norm = plt.Normalize(vmin=color_matrix.min(), vmax=color_matrix.max())
 
-    # Adjust text color for better visibility
-    for text in ax.texts:
-        text.set_color("black")
+    # Increase the vertical offset for better separation between lines
+    offset = 0.15  # Adjust this value as needed
+    
+    for i in range(n):
+        for j in range(n):
+            # Split the annotation text into percentage difference and p-value parts
+            perc_diff, p_value_str = diff_matrix[i, j].split("\n")
+            p_value = float(p_value_str.split("=")[1])  # Extract numeric p-value
+    
+            # Get the cell's background color from the colormap for brightness calculation
+            value = color_matrix[i, j]
+            cell_color = cmap_used(norm(value))
+            brightness = (cell_color[0] * 0.299 + cell_color[1] * 0.587 + cell_color[2] * 0.114)
+            default_text_color = "white" if brightness < 0.5 else "black"
+    
+            # Determine the p-value text color: use dark red if p > 0.05, otherwise use default
+            p_value_color = "darkred" if p_value > 0.05 else default_text_color
+    
+            # Place the p-value at the top of the cell (swapped position)
+
+            if i != j:
+                ax.text(
+                    j + 0.5,
+                    i + 0.5 + offset,  # upward offset for p-value
+                    f"p={p_value:.3f}",
+                    ha="center", va="center",
+                    color=p_value_color,
+                    fontsize=14,
+                    weight="bold"
+                )
+                
+                ax.text(
+                    j + 0.5,
+                    i + 0.5 - offset,  # downward offset for percentage difference
+                    perc_diff,
+                    ha="center", va="center",
+                    color=default_text_color,
+                    fontsize=14
+                )
 
     plt.title("Pairwise Comparison: % Difference and p-value", weight="bold")
     plt.xlabel("Comparison Experiment")
@@ -323,6 +360,10 @@ def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     plt.close()
     logging.info(f"Pairwise comparison heatmap saved to {output_path}")
 
+def is_statistically_significant(baseline_times, optimized_times, alpha=0.05):
+    t_stat, p_value = ttest_ind(baseline_times, optimized_times)
+    return p_value < alpha
+
 
 def main(root_folder, sample_size, random_state):
     output_folder = os.path.join(root_folder, "stats")
@@ -335,7 +376,7 @@ def main(root_folder, sample_size, random_state):
         (f for f in benchmark_folders if "baseline" in f.lower()), None
     )
     if not baseline_folder:
-        print("[!] Error: No baseline folder found.")
+        logging.info("Error: No baseline folder found.")
         return
 
     # Read baseline execution time data
@@ -347,6 +388,7 @@ def main(root_folder, sample_size, random_state):
     # Initialize variables to track the best optimization
     best_optimised_folder = None
     best_optimised_mean = float("inf")
+    best_p_value = 1.0
 
     # Store samples for combined plotting
     baseline_sample = None
@@ -355,7 +397,6 @@ def main(root_folder, sample_size, random_state):
     # Store all execution times for box plots
     optimised_files_data = []
 
-    # Iterate over each optimised folder
     for optimised_folder in benchmark_folders:
         if optimised_folder == baseline_folder:
             continue
@@ -381,10 +422,17 @@ def main(root_folder, sample_size, random_state):
             random_state,
         )
 
-        # Track the best optimization based on mean execution time
-        if optimised_mean < best_optimised_mean:
+        # Check for statistical significance
+        is_significant = is_statistically_significant(baseline_sample, optimised_sample)
+        _, p_value = ttest_ind(baseline_sample, optimised_sample)
+
+        # Track the best optimization based on mean execution time and statistical significance
+        if is_significant and (
+            optimised_mean < best_optimised_mean or not best_optimised_folder
+        ):
             best_optimised_mean = optimised_mean
             best_optimised_folder = optimised_folder
+            best_p_value = p_value
 
         # Store samples for plotting
         optimised_samples.append(optimised_sample)
@@ -424,8 +472,9 @@ def main(root_folder, sample_size, random_state):
             baseline_mean, best_optimised_mean
         )
         logging.info(
-            f"Best Optimization: {os.path.basename(best_optimised_folder)} with mean execution time: {best_optimised_mean:.15f}"
+            f"Best Statistically Significant Optimization: {os.path.basename(best_optimised_folder)} with mean execution time: {best_optimised_mean:.15f}"
         )
+        logging.info(f"P-value: {best_p_value:.15f}")
 
         if percentage_diff < 0:
             logging.info(
@@ -438,7 +487,7 @@ def main(root_folder, sample_size, random_state):
         else:
             logging.info("The best optimization had no effect on performance")
     else:
-        logging.info("No optimization folders provided")
+        logging.info("No statistically significant optimization found")
 
 
 if __name__ == "__main__":
