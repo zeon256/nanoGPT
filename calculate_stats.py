@@ -275,15 +275,23 @@ def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     color_matrix = np.zeros((n, n))
 
     for i in range(n):
-        for j in range(n):
-            if i != j:
-                perc_diff = (mean_times[j] - mean_times[i]) / mean_times[i] * 100
-                _, p_value = stats.ttest_ind(all_times[i], all_times[j])
-                diff_matrix[i, j] = f"{perc_diff:.2f}%\np={p_value:.3f}"
-                color_matrix[i, j] = perc_diff
-            else:
-                diff_matrix[i, j] = "0%\np=1.000"
-                color_matrix[i, j] = 0
+        for j in range(i+1, n):  # Only calculate for upper triangle
+            perc_diff = (mean_times[j] - mean_times[i]) / mean_times[i] * 100
+            _, p_value = stats.ttest_ind(all_times[i], all_times[j])
+            
+            # Store values for (i,j)
+            diff_matrix[i, j] = f"{perc_diff:.2f}%\np={p_value:.3f}"
+            color_matrix[i, j] = perc_diff
+            
+            # Mirror and flip sign for (j,i)
+            diff_matrix[j, i] = f"{-perc_diff:.2f}%\np={p_value:.3f}"
+            color_matrix[j, i] = -perc_diff
+
+    # Set diagonal elements
+    for i in range(n):
+        diff_matrix[i, i] = "0%\np=1.000"
+        color_matrix[i, i] = 0
+
 
     # Create heatmap
     plt.figure(figsize=(14, 12))
