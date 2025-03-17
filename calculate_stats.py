@@ -25,11 +25,9 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-
 def custom_sort_key(folder_name):
     order = [
         "baseline",
-        "splitlock",
         "thp",
         "mimalloc",
         "mimalloc-thp",
@@ -39,10 +37,23 @@ def custom_sort_key(folder_name):
         "tcmalloc-thp",
     ]
     folder_name = os.path.basename(folder_name).lower()
+    
+    # Exact match
+    if folder_name in order:
+        return order.index(folder_name)
+    
+    # Check for compound names
     for i, name in enumerate(order):
-        if name in folder_name:
+        if name.endswith('-thp') and folder_name == name:
             return i
+    
+    # Check for partial matches, ensuring 'thp' doesn't match others
+    for i, name in enumerate(order):
+        if name in folder_name and (name != 'thp' or folder_name == 'thp'):
+            return i
+    
     return len(order)  # Put any unmatched folders at the end
+
 
 
 def read_json_data(folder_path):
@@ -92,13 +103,22 @@ def compare_execution_times(
 
     # Calculate means
     baseline_mean = baseline_sample.mean()
+    baseline_std = baseline_sample.std()
     optimised_mean = optimised_sample.mean()
+    optimised_std = optimised_sample.std()
     optimised_min = min(optimised_sample)
     optimised_max = max(optimised_sample)
     percentage_diff = calculate_percentage_difference(baseline_mean, optimised_mean)
 
+    # Calculate Coefficient of Variation (CoV)
+    baseline_cov = (baseline_std / baseline_mean) * 100
+    optimised_cov = (optimised_std / optimised_mean) * 100
+
     logging.info(f"Baseline Mean Execution Time (Sample): {baseline_mean:.15f}")
+    logging.info(f"Baseline Coefficient of Variation: {baseline_cov:.2f}%")
     logging.info(f"Optimised Mean Execution Time (Sample): {optimised_mean:.15f}")
+    logging.info(f"Optimised Standard Deviation: {optimised_std:.15f}")
+    logging.info(f"Optimised Coefficient of Variation: {optimised_cov:.2f}%")
     logging.info(f"T-statistic: {t_stat:.15f}")
     logging.info(f"P-value: {p_value:.15f}")
     logging.info(f"Minimum Execution Time: {optimised_min:.15f}")
@@ -212,6 +232,8 @@ def find_benchmark_folders(root_folder):
     """Finds all benchmark folders in the given folder structure."""
     benchmark_folders = []
     for item in os.listdir(root_folder):
+        if item == "stats" or item == "splitlock":
+            continue
         item_path = os.path.join(root_folder, item)
         if os.path.isdir(item_path) and any(
             file.startswith("run_") and file.endswith(".json")
@@ -291,7 +313,6 @@ def create_pairwise_comparison_heatmap(benchmark_folders, output_folder):
     for i in range(n):
         diff_matrix[i, i] = "0%\np=1.000"
         color_matrix[i, i] = 0
-
 
     # Create heatmap
     plt.figure(figsize=(14, 12))
@@ -378,6 +399,8 @@ def main(root_folder, sample_size, random_state):
 
     # Find all benchmark folders
     benchmark_folders = sorted(find_benchmark_folders(root_folder), key=custom_sort_key)
+
+    logging.info(benchmark_folders)
 
     # Identify baseline folder (assuming it's named 'baseline')
     baseline_folder = next(
