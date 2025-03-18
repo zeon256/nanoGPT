@@ -1,0 +1,29 @@
+{
+  "munmap": {
+    "percent_time": 41.18,
+    "seconds": 7e-06,
+    "usecs_per_call": 1,
+    "calls": 4,
+    "errors": 0
+  },
+  "brk": {
+    "percent_time": 41.18,
+    "seconds": 7e-06,
+    "usecs_per_call": 0,
+    "calls": 9,
+    "errors": 0
+  },
+  "mmap": {
+    "percent_time": 17.65,
+    "seconds": 3e-06,
+    "usecs_per_call": 0,
+    "calls": 46,
+    "errors": 0
+  },
+  "summary": {
+    "percent_time": 100.0,
+    "seconds": 1.7e-05,
+    "usecs_per_call": 0,
+    "calls": 59
+  }
+}

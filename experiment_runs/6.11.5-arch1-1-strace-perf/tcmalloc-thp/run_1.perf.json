@@ -1,0 +1,20 @@
+{
+  "dTLB-loads": {
+    "value": 6769428246,
+    "percentage": null,
+    "description": null
+  },
+  "dTLB-load-misses": {
+    "value": 149589622,
+    "percentage": 2.21,
+    "description": "#    2.21% of all dTLB cache accesses"
+  },
+  "page-faults": {
+    "value": 630693,
+    "percentage": null,
+    "description": null
+  },
+  "time_elapsed": 172.698608068,
+  "user_time": 143.382883,
+  "sys_time": 29.880548
+}
