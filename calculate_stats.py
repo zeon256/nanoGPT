@@ -12,7 +12,7 @@ import seaborn as sns
 from scipy import stats
 
 matplotlib.rcParams["figure.dpi"] = 300
-matplotlib.rcParams["font.family"] = "Iosevka NFM"
+matplotlib.rcParams["font.family"] = "Iosevka"
 matplotlib.rcParams["font.size"] = 14
 
 handler = logging.StreamHandler(sys.stdout)
@@ -393,19 +393,110 @@ def is_statistically_significant(baseline_times, optimized_times, alpha=0.05):
     t_stat, p_value = ttest_ind(baseline_times, optimized_times)
     return p_value < alpha
 
+def save_results_to_json(results, output_folder):
+    """Saves the analysis results to a JSON file."""
+    output_path = os.path.join(output_folder, "results.json")
+    with open(output_path, "w") as f:
+        json.dump(results, f, indent=4)
+    logging.info(f"Results saved to {output_path}")
+
+def generate_typst_table(results, output_folder):
+    """Generates a Typst table from the results dictionary."""
+    
+    # Find the best performing experiment based on percentage difference
+    best_experiment = min(
+        results["comparisons"],
+        key=lambda x: x["percentage_difference"] if x["is_significant"] else float('inf')
+    )
+    
+    # Start building the table string
+    table_str = """#figure(
+  text(size: 9pt)[
+    #table(
+      columns: (auto, auto, auto, auto, auto, auto, auto),
+      inset: 6pt,
+      align: horizon,
+      table.header(
+        [*Experiment*],
+        [*Mean ($mu$)*],
+        [*$C_V$*],
+        [*% Diff ($Delta$)*],
+        [*Min*],
+        [*Max*],
+        [*P-value*],
+      ),\n"""
+
+    # Add baseline row
+    baseline = results["baseline"]
+    baseline_cov = (baseline["std"] / baseline["mean"]) * 100
+    table_str += f"""
+      [baseline], [{baseline["mean"]:.3f}], [{baseline_cov:.2f}], [-], [{baseline["min"]:.3f}], [{baseline["max"]:.3f}], [-],"""
+
+    # Add comparison rows
+    for comp in results["comparisons"]:
+        # Calculate CoV
+        cov = (comp["std"] / comp["mean"]) * 100
+        
+        # Determine if this is the best experiment
+        is_best = (comp["folder"] == best_experiment["folder"])
+        
+        # Format p-value with red text if > 0.05
+        p_value_str = f'[#text("{comp["p_value"]:.6f}", fill: red)]' if comp["p_value"] > 0.05 else f'[{comp["p_value"]:.6f}]'
+        
+        # Format the row, wrapping in bold if it's the best
+        row_values = [
+            comp["folder"],
+            f"{comp['mean']:.3f}",
+            f"{cov:.2f}",
+            f"{'+' if comp['percentage_difference'] > 0 else ''}{comp['percentage_difference']:.2f}",
+            f"{comp['min']:.3f}",
+            f"{comp['max']:.3f}",
+            p_value_str
+        ]
+        
+        if is_best:
+            row_values = [f"*{val}*" if not val.startswith('[#') else val for val in row_values]
+        
+        row_str = f"""
+      [{row_values[0]}], [{row_values[1]}], [{row_values[2]}], [{row_values[3]}], [{row_values[4]}], [{row_values[5]}], {row_values[6]},"""
+        
+        table_str += row_str
+
+    # Add closing tags
+    table_str += """
+    )
+  ],
+  caption: [Statistical analysis of Random Forest training time and different optimisation techniques],
+)
+"""
+
+    # Write to file
+    output_path = os.path.join(output_folder, "typst_table.txt")
+    with open(output_path, "w") as f:
+        f.write(table_str)
+    logging.info(f"Typst table saved to {output_path}")
 
 def main(root_folder, sample_size, random_state):
     output_folder = os.path.join(root_folder, "stats")
+    
+    # Initialize results dictionary
+    results = {
+        "baseline": {},
+        "comparisons": [],
+        "best_optimization": {},
+        "metadata": {
+            "sample_size": sample_size,
+            "random_state": random_state
+        }
+    }
 
     # Find all benchmark folders
     benchmark_folders = sorted(find_benchmark_folders(root_folder), key=custom_sort_key)
-
+    
     logging.info(benchmark_folders)
 
-    # Identify baseline folder (assuming it's named 'baseline')
-    baseline_folder = next(
-        (f for f in benchmark_folders if "baseline" in f.lower()), None
-    )
+    # Identify baseline folder
+    baseline_folder = next((f for f in benchmark_folders if "baseline" in f.lower()), None)
     if not baseline_folder:
         logging.info("Error: No baseline folder found.")
         return
@@ -413,10 +504,18 @@ def main(root_folder, sample_size, random_state):
     # Read baseline execution time data
     baseline_execution_time = read_json_data(baseline_folder)
 
-    # Print baseline statistics
-    print_baseline_stats(baseline_execution_time)
+    # Store baseline statistics
+    baseline_mean = pl.Series(baseline_execution_time).mean()
+    baseline_std = pl.Series(baseline_execution_time).std()
+    results["baseline"] = {
+        "mean": baseline_mean,
+        "std": baseline_std,
+        "min": min(baseline_execution_time),
+        "max": max(baseline_execution_time),
+        "cov": (baseline_std / baseline_mean) * 100
+    }
 
-    # Initialize variables to track the best optimization
+    # Initialize variables for tracking best optimization
     best_optimised_folder = None
     best_optimised_mean = float("inf")
     best_p_value = 1.0
@@ -432,20 +531,15 @@ def main(root_folder, sample_size, random_state):
         if optimised_folder == baseline_folder:
             continue
 
-        logging.info(f"Optimised Folder: {optimised_folder}")
-
-        # Read optimised execution time data
         optimised_execution_time = read_json_data(optimised_folder)
-
+        
         # Store execution time data for box plots
         optimised_files_data.append((optimised_execution_time, optimised_folder))
 
-        # Ensure the sample size does not exceed the size of either dataset
         current_sample_size = min(
             sample_size, len(baseline_execution_time), len(optimised_execution_time)
         )
 
-        # Compare execution times and get the samples and mean of the optimised sample
         baseline_sample, optimised_sample, optimised_mean = compare_execution_times(
             baseline_execution_time,
             optimised_execution_time,
@@ -453,41 +547,52 @@ def main(root_folder, sample_size, random_state):
             random_state,
         )
 
-        # Check for statistical significance
-        is_significant = is_statistically_significant(baseline_sample, optimised_sample)
-        _, p_value = ttest_ind(baseline_sample, optimised_sample)
+        # Store samples for plotting
+        optimised_samples.append(optimised_sample)
 
-        # Track the best optimization based on mean execution time and statistical significance
-        if is_significant and (
-            optimised_mean < best_optimised_mean or not best_optimised_folder
-        ):
+        # Calculate statistics
+        t_stat, p_value = ttest_ind(baseline_sample, optimised_sample)
+        percentage_diff = calculate_percentage_difference(baseline_mean, optimised_mean)
+        is_significant = is_statistically_significant(baseline_sample, optimised_sample)
+
+        # Store comparison results
+        comparison_result = {
+            "folder": os.path.basename(optimised_folder),
+            "mean": float(optimised_mean),
+            "std": float(optimised_sample.std()),
+            "min": float(optimised_sample.min()),
+            "max": float(optimised_sample.max()),
+            "t_statistic": float(t_stat),
+            "p_value": float(p_value),
+            "percentage_difference": float(percentage_diff),
+            "is_significant": bool(is_significant)
+        }
+        results["comparisons"].append(comparison_result)
+
+        # Track best optimization
+        if is_significant and (optimised_mean < best_optimised_mean or not best_optimised_folder):
             best_optimised_mean = optimised_mean
             best_optimised_folder = optimised_folder
             best_p_value = p_value
 
-        # Store samples for plotting
-        optimised_samples.append(optimised_sample)
+    # Store best optimization results
+    if best_optimised_folder:
+        results["best_optimization"] = {
+            "folder": os.path.basename(best_optimised_folder),
+            "mean": float(best_optimised_mean),
+            "p_value": float(best_p_value),
+            "improvement": float(calculate_percentage_difference(baseline_mean, best_optimised_mean))
+        }
 
-        print("=" * 50)
-
-    # Plot combined execution times
-    plot_combined_execution_times(
-        baseline_sample, optimised_samples, benchmark_folders[1:], output_folder
-    )
-
-    # Create box plots
+    # Generate plots
+    plot_combined_execution_times(baseline_sample, optimised_samples, benchmark_folders[1:], output_folder)
     plot_boxplots(baseline_execution_time, optimised_files_data, output_folder)
-
-    # Create pairwise comparison heatmap
     create_pairwise_comparison_heatmap(benchmark_folders, output_folder)
-
+    
     baseline_mean = sum(baseline_execution_time) / len(baseline_execution_time)
-
     optimized_folders = [f for f in benchmark_folders if f != baseline_folder]
-    optimized_means = [
-        sum(read_json_data(f)) / len(read_json_data(f)) for f in optimized_folders
-    ]
-
+    optimized_means = [sum(read_json_data(f)) / len(read_json_data(f)) for f in optimized_folders]
+    
     plot_percentage_improvement(
         baseline_mean,
         optimized_means,
@@ -496,30 +601,9 @@ def main(root_folder, sample_size, random_state):
         baseline_folder,
     )
 
-    # Display the best optimization
-    if best_optimised_folder:
-        baseline_mean = sum(baseline_execution_time) / len(baseline_execution_time)
-        percentage_diff = calculate_percentage_difference(
-            baseline_mean, best_optimised_mean
-        )
-        logging.info(
-            f"Best Statistically Significant Optimization: {os.path.basename(best_optimised_folder)} with mean execution time: {best_optimised_mean:.15f}"
-        )
-        logging.info(f"P-value: {best_p_value:.15f}")
-
-        if percentage_diff < 0:
-            logging.info(
-                f"The best optimization improved performance by {abs(percentage_diff):.2f}%"
-            )
-        elif percentage_diff > 0:
-            logging.info(
-                f"The best optimization degraded performance by {percentage_diff:.2f}%"
-            )
-        else:
-            logging.info("The best optimization had no effect on performance")
-    else:
-        logging.info("No statistically significant optimization found")
-
+    # Save results to JSON file and tables
+    save_results_to_json(results, output_folder)
+    generate_typst_table(results, output_folder)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -533,7 +617,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--sample_size",
         type=int,
-        default=20,
+        default=30,
         help="Sample size for each dataset (default: 20)",
     )
     parser.add_argument(

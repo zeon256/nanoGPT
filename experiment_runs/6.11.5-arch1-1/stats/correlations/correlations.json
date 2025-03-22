@@ -1,0 +1,72 @@
+{
+    "dtlb_loads": {
+        "correlation": 0.2993176505471895,
+        "p_value": 0.4713987018347795,
+        "interpretation": {
+            "strength": "weak",
+            "direction": "positive",
+            "significance": "not significant",
+            "practical_significance": "Weaker relationship with execution time"
+        }
+    },
+    "dtlb_miss_rate": {
+        "correlation": 0.07128647258379726,
+        "p_value": 0.8667899995949602,
+        "interpretation": {
+            "strength": "weak",
+            "direction": "positive",
+            "significance": "not significant",
+            "practical_significance": "Weaker relationship with execution time"
+        }
+    },
+    "page_faults": {
+        "correlation": 0.5712163638359034,
+        "p_value": 0.1391404891947697,
+        "interpretation": {
+            "strength": "moderate",
+            "direction": "positive",
+            "significance": "not significant",
+            "practical_significance": "Stronger relationship with execution time"
+        }
+    },
+    "mmap_calls": {
+        "correlation": -0.4070037081276712,
+        "p_value": 0.31695612106939974,
+        "interpretation": {
+            "strength": "moderate",
+            "direction": "negative",
+            "significance": "not significant",
+            "practical_significance": "Weaker relationship with execution time"
+        }
+    },
+    "brk_calls": {
+        "correlation": 0.9149611423280842,
+        "p_value": 0.0014410314938089724,
+        "interpretation": {
+            "strength": "strong",
+            "direction": "positive",
+            "significance": "highly significant",
+            "practical_significance": "Stronger relationship with execution time"
+        }
+    },
+    "munmap_calls": {
+        "correlation": 0.1319469457226976,
+        "p_value": 0.7554559737821287,
+        "interpretation": {
+            "strength": "weak",
+            "direction": "positive",
+            "significance": "not significant",
+            "practical_significance": "Weaker relationship with execution time"
+        }
+    },
+    "total_calls": {
+        "correlation": 0.5487697668770773,
+        "p_value": 0.1589699806870348,
+        "interpretation": {
+            "strength": "moderate",
+            "direction": "positive",
+            "significance": "not significant",
+            "practical_significance": "Stronger relationship with execution time"
+        }
+    }
+}

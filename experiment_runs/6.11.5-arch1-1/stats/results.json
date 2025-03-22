@@ -1,0 +1,98 @@
+{
+    "baseline": {
+        "mean": 170.7443003699974,
+        "std": 2.519927167357664,
+        "min": 169.55353351899248,
+        "max": 183.64901590799855,
+        "cov": 1.4758484833151462
+    },
+    "comparisons": [
+        {
+            "folder": "thp",
+            "mean": 169.96283370720008,
+            "std": 0.09835638236800248,
+            "min": 169.77153590999842,
+            "max": 170.20134211299955,
+            "t_statistic": 1.6972317319486177,
+            "p_value": 0.09501338527904968,
+            "percentage_difference": -0.45768242986964425,
+            "is_significant": false
+        },
+        {
+            "folder": "mimalloc",
+            "mean": 168.89974721326678,
+            "std": 0.12536370766325824,
+            "min": 168.66019819100075,
+            "max": 169.24561524500132,
+            "t_statistic": 4.004133625957005,
+            "p_value": 0.0001792502705773515,
+            "percentage_difference": -1.0803014523668073,
+            "is_significant": true
+        },
+        {
+            "folder": "mimalloc-thp",
+            "mean": 168.63926928919997,
+            "std": 0.13903766492043587,
+            "min": 168.431523018,
+            "max": 169.07903402300144,
+            "t_statistic": 4.568234263926409,
+            "p_value": 2.6180331182393992e-05,
+            "percentage_difference": -1.2328558412994735,
+            "is_significant": true
+        },
+        {
+            "folder": "jemalloc",
+            "mean": 169.05063074223332,
+            "std": 0.13596110668724384,
+            "min": 168.78982664100113,
+            "max": 169.3483412200003,
+            "t_statistic": 3.675770527516049,
+            "p_value": 0.0005197359445358801,
+            "percentage_difference": -0.9919333319437035,
+            "is_significant": true
+        },
+        {
+            "folder": "jemalloc-thp",
+            "mean": 168.97904625499953,
+            "std": 0.14581500817462403,
+            "min": 168.71122759799982,
+            "max": 169.27073431399913,
+            "t_statistic": 3.8302667295023216,
+            "p_value": 0.0003167287686300551,
+            "percentage_difference": -1.0338582963956187,
+            "is_significant": true
+        },
+        {
+            "folder": "tcmalloc",
+            "mean": 169.42913395716667,
+            "std": 2.390937380214305,
+            "min": 168.4825204510007,
+            "max": 181.893682464,
+            "t_statistic": 2.0569792223494203,
+            "p_value": 0.04419488873670193,
+            "percentage_difference": -0.7702549426134935,
+            "is_significant": true
+        },
+        {
+            "folder": "tcmalloc-thp",
+            "mean": 169.87083630783343,
+            "std": 0.11816483059564738,
+            "min": 169.6854094600003,
+            "max": 170.1557201809992,
+            "t_statistic": 1.8963753270693076,
+            "p_value": 0.062894824244194,
+            "percentage_difference": -0.5115626467596325,
+            "is_significant": false
+        }
+    ],
+    "best_optimization": {
+        "folder": "mimalloc-thp",
+        "mean": 168.63926928919997,
+        "p_value": 2.6180331182393992e-05,
+        "improvement": -1.2328558412994735
+    },
+    "metadata": {
+        "sample_size": 30,
+        "random_state": 42
+    }
+}

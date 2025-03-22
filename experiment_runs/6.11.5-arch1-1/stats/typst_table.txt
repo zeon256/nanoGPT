@@ -1,0 +1,28 @@
+#figure(
+  text(size: 9pt)[
+    #table(
+      columns: (auto, auto, auto, auto, auto, auto, auto),
+      inset: 6pt,
+      align: horizon,
+      table.header(
+        [*Experiment*],
+        [*Mean ($mu$)*],
+        [*$C_V$*],
+        [*% Diff ($Delta$)*],
+        [*Min*],
+        [*Max*],
+        [*P-value*],
+      ),
+
+      [baseline], [170.744], [1.48], [-], [169.554], [183.649], [-],
+      [thp], [169.963], [0.06], [-0.46], [169.772], [170.201], [#text("0.095013", fill: red)],
+      [mimalloc], [168.900], [0.07], [-1.08], [168.660], [169.246], [0.000179],
+      [*mimalloc-thp*], [*168.639*], [*0.08*], [*-1.23*], [*168.432*], [*169.079*], [*0.000026*],
+      [jemalloc], [169.051], [0.08], [-0.99], [168.790], [169.348], [0.000520],
+      [jemalloc-thp], [168.979], [0.09], [-1.03], [168.711], [169.271], [0.000317],
+      [tcmalloc], [169.429], [1.41], [-0.77], [168.483], [181.894], [0.044195],
+      [tcmalloc-thp], [169.871], [0.07], [-0.51], [169.685], [170.156], [#text("0.062895", fill: red)],
+    )
+  ],
+  caption: [Statistical analysis of Random Forest training time and different optimisation techniques],
+)
